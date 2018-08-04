@@ -3,6 +3,7 @@ title: model简介
 tag: 
   - Emberjs
   - Ember-Teach
+  - Ember-Model
 ---
 
 [Ember](http://emberjs.com)官网用了大篇幅来介绍`model`，相比之前的`controller`简直就是天壤之别啊！

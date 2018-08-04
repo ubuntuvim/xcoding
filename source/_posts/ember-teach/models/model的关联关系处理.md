@@ -3,6 +3,7 @@ title: model的关联关系处理
 tag: 
   - Emberjs
   - Ember-Teach
+  - Ember-Model
 ---
 
 在前面[Ember.js 入门指南之三十八定义模型](http://blog.ddlisting.com/2016/04/08/ding-yi-mo-xing/)中介绍过模型之前的关系。主要包括一对一、一对多、多对多关系。但是还没介绍两个有关联关系模型的更新、删除等操作。

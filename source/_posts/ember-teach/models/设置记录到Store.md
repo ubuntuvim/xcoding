@@ -3,6 +3,7 @@ title: 设置记录到Store
 tag: 
   - Emberjs
   - Ember-Teach
+  - Ember-Model
 ---
 
 [Ember](http://emberjs.com)的[Store](http://emberjs.com/api/data/classes/DS.Store.html)就像一个缓存池，用户提交的数据以及从服务器获取的数据会首先保存到Store。如果用户再次请求相同的数据会直接从Store中获取，而不是发送HTTP请求去服务器获取。

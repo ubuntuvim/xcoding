@@ -3,6 +3,7 @@ title: 控制器（controller）
 tag:
 	- Emberjs
 	- Ember-Teach
+	- Ember-Controller
 ---
 
 
