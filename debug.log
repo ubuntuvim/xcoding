@@ -1,0 +1,830 @@
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-08-04T12:55:53.173Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Working directory: \u001b[35m~/git/xcoding/\u001b[39m","time":"2018-08-04T12:55:53.176Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Config loaded: \u001b[35m~/git/xcoding/_config.yml\u001b[39m","time":"2018-08-04T12:55:53.274Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-08-04T12:55:53.306Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-08-04T12:55:53.309Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-08-04T12:55:53.311Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2018-08-04T12:55:53.318Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-08-04T12:55:53.319Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-search\u001b[39m","time":"2018-08-04T12:55:53.323Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-08-04T12:55:53.326Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-readingtime\u001b[39m","time":"2018-08-04T12:55:53.328Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-08-04T12:55:53.335Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-08-04T12:55:53.347Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-08-04T12:55:53.350Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-08-04T12:55:53.436Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/center-quote.js\u001b[39m","time":"2018-08-04T12:55:53.444Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/lazy-image.js\u001b[39m","time":"2018-08-04T12:55:53.444Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/note.js\u001b[39m","time":"2018-08-04T12:55:53.445Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Loading database.","time":"2018-08-04T12:55:53.453Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":30,"msg":"Start processing","time":"2018-08-04T12:55:53.461Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mCNAME\u001b[39m","time":"2018-08-04T12:55:53.497Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/js/xoxo.js\u001b[39m","time":"2018-08-04T12:55:53.620Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Theme config loaded.","time":"2018-08-04T12:55:53.645Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2018-08-04T12:55:53.646Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/common.less\u001b[39m","time":"2018-08-04T12:55:53.651Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/core.less\u001b[39m","time":"2018-08-04T12:55:53.652Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/highlight.less\u001b[39m","time":"2018-08-04T12:55:53.652Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/mixin.less\u001b[39m","time":"2018-08-04T12:55:53.653Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/normalize.css\u001b[39m","time":"2018-08-04T12:55:53.653Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/variables.less\u001b[39m","time":"2018-08-04T12:55:53.654Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/pure-min.css\u001b[39m","time":"2018-08-04T12:55:53.655Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css\u001b[39m","time":"2018-08-04T12:55:53.657Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css.map\u001b[39m","time":"2018-08-04T12:55:53.658Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.less\u001b[39m","time":"2018-08-04T12:55:53.660Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css\u001b[39m","time":"2018-08-04T12:55:53.663Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css.map\u001b[39m","time":"2018-08-04T12:55:53.663Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/image/favicon.ico\u001b[39m","time":"2018-08-04T12:55:53.663Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mabout/index.html\u001b[39m","time":"2018-08-04T12:55:53.725Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35matom/index.html\u001b[39m","time":"2018-08-04T12:55:53.742Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msearch/index.html\u001b[39m","time":"2018-08-04T12:55:53.742Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mtags/index.html\u001b[39m","time":"2018-08-04T12:55:53.744Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2018-08-04T12:55:53.745Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/archive.ejs\u001b[39m","time":"2018-08-04T12:55:53.786Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/index.ejs\u001b[39m","time":"2018-08-04T12:55:53.786Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/layout.ejs\u001b[39m","time":"2018-08-04T12:55:53.787Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/page.ejs\u001b[39m","time":"2018-08-04T12:55:53.787Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/post.ejs\u001b[39m","time":"2018-08-04T12:55:53.787Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/tag.ejs\u001b[39m","time":"2018-08-04T12:55:53.787Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlanguages/default.yml\u001b[39m","time":"2018-08-04T12:55:53.788Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlanguages/en.yml\u001b[39m","time":"2018-08-04T12:55:53.789Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-CN.yml\u001b[39m","time":"2018-08-04T12:55:53.789Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-TW.yml\u001b[39m","time":"2018-08-04T12:55:53.789Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35msource/image/ape-note1.jpg\u001b[39m","time":"2018-08-04T12:55:53.789Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/firebase数据访问权限设置.md\u001b[39m","time":"2018-08-04T12:55:53.853Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js代码备忘.md\u001b[39m","time":"2018-08-04T12:55:53.869Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/refresh-current-routes-model-from-application-template.md\u001b[39m","time":"2018-08-04T12:55:53.876Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/升级Ember-cli.md\u001b[39m","time":"2018-08-04T12:55:53.886Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js插件.md\u001b[39m","time":"2018-08-04T12:55:53.899Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/监听全局错误信息.md\u001b[39m","time":"2018-08-04T12:55:53.906Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/自定义IF判断.md\u001b[39m","time":"2018-08-04T12:55:53.916Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/获取当前URL.md\u001b[39m","time":"2018-08-04T12:55:53.924Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js适配器跨域请求问题.md\u001b[39m","time":"2018-08-04T12:55:53.931Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember如何整合多说.md\u001b[39m","time":"2018-08-04T12:55:53.945Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/access token生成.md\u001b[39m","time":"2018-08-04T12:55:53.955Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/README.md\u001b[39m","time":"2018-08-04T12:55:53.961Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/ember.js最常用的addon.md\u001b[39m","time":"2018-08-04T12:55:53.966Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/emberjs常见错误集.md\u001b[39m","time":"2018-08-04T12:55:53.972Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/动态加载Bootstrap.md\u001b[39m","time":"2018-08-04T12:55:53.972Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/发布项目到Firebase.md\u001b[39m","time":"2018-08-04T12:55:53.982Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/Git的错误error Failed connect to github.com443;解决办法.md\u001b[39m","time":"2018-08-04T12:55:53.988Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/在github上同步一个分支(fork).md\u001b[39m","time":"2018-08-04T12:55:53.996Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/提交项目到GitHub，还原某个文件.md\u001b[39m","time":"2018-08-04T12:55:54.009Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Java/eclipse、MyEclipse安装插件的万能方法.md\u001b[39m","time":"2018-08-04T12:55:54.022Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Java/maven引入本地JAR包.md\u001b[39m","time":"2018-08-04T12:55:54.026Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux 空间满问题分析.md\u001b[39m","time":"2018-08-04T12:55:54.027Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux安装配置JDK.md\u001b[39m","time":"2018-08-04T12:55:54.028Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/ubuntu安装主题.md\u001b[39m","time":"2018-08-04T12:55:54.030Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/xxx is not in the sudoers file.This incident will be reported.的解决方法.md\u001b[39m","time":"2018-08-04T12:55:54.030Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/增加用户并且授root权.md\u001b[39m","time":"2018-08-04T12:55:54.031Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/Mac无法开机.md\u001b[39m","time":"2018-08-04T12:55:54.034Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/环境变量配置错误时临时解救办法.md\u001b[39m","time":"2018-08-04T12:55:54.037Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/express获取参数的方法.md\u001b[39m","time":"2018-08-04T12:55:54.043Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/创建npm插件.md\u001b[39m","time":"2018-08-04T12:55:54.047Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/Ruby/SSL证书问题.md\u001b[39m","time":"2018-08-04T12:55:54.048Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/fq/强制 Google.com 域名使用 HTTPS（SSL）.md\u001b[39m","time":"2018-08-04T12:55:54.049Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈.md\u001b[39m","time":"2018-08-04T12:55:54.051Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈学习笔记.md\u001b[39m","time":"2018-08-04T12:55:54.052Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之一框架总说明.md\u001b[39m","time":"2018-08-04T12:55:54.058Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之七框架拦截器ActionServlet定义、配置.md\u001b[39m","time":"2018-08-04T12:55:54.060Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之三Action接口定义.md\u001b[39m","time":"2018-08-04T12:55:54.063Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之二action配置文件定义.md\u001b[39m","time":"2018-08-04T12:55:54.065Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之五配置文件解析器ActionMappingManager定义.md\u001b[39m","time":"2018-08-04T12:55:54.067Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之八使用框架模拟登陆.md\u001b[39m","time":"2018-08-04T12:55:54.069Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之六ActionManager定义.md\u001b[39m","time":"2018-08-04T12:55:54.072Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之四ActionMapping定义.md\u001b[39m","time":"2018-08-04T12:55:54.073Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/鸡汤/程序员的3年之痒改变的不止薪水.md\u001b[39m","time":"2018-08-04T12:55:54.074Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive-post.ejs\u001b[39m","time":"2018-08-04T12:55:54.093Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/analytics.ejs\u001b[39m","time":"2018-08-04T12:55:54.108Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive.ejs\u001b[39m","time":"2018-08-04T12:55:54.108Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/copyright.ejs\u001b[39m","time":"2018-08-04T12:55:54.108Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/disqus.ejs\u001b[39m","time":"2018-08-04T12:55:54.109Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/footer.ejs\u001b[39m","time":"2018-08-04T12:55:54.109Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/head.ejs\u001b[39m","time":"2018-08-04T12:55:54.109Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/js.ejs\u001b[39m","time":"2018-08-04T12:55:54.109Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/nav.ejs\u001b[39m","time":"2018-08-04T12:55:54.109Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/prenext.ejs\u001b[39m","time":"2018-08-04T12:55:54.109Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/recent-posts.ejs\u001b[39m","time":"2018-08-04T12:55:54.109Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/scripts.ejs\u001b[39m","time":"2018-08-04T12:55:54.110Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/search.ejs\u001b[39m","time":"2018-08-04T12:55:54.110Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/share.ejs\u001b[39m","time":"2018-08-04T12:55:54.110Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35mlayout/partials/toc.ejs\u001b[39m","time":"2018-08-04T12:55:54.110Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/第一章对象模型小结.md\u001b[39m","time":"2018-08-04T12:55:54.144Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的定义、初始化、继承.md\u001b[39m","time":"2018-08-04T12:55:54.147Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的扩展.md\u001b[39m","time":"2018-08-04T12:55:54.151Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/绑定（bingding）.md\u001b[39m","time":"2018-08-04T12:55:54.154Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/观察者（observer）.md\u001b[39m","time":"2018-08-04T12:55:54.157Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/枚举（enumerables）.md\u001b[39m","time":"2018-08-04T12:55:54.160Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/计算属性（compute properties）.md\u001b[39m","time":"2018-08-04T12:55:54.164Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/属性传递.md\u001b[39m","time":"2018-08-04T12:55:54.188Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/控制器（controller）.md\u001b[39m","time":"2018-08-04T12:55:54.194Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/action触发变化.md\u001b[39m","time":"2018-08-04T12:55:54.195Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/管理controller之间的依赖关系.md\u001b[39m","time":"2018-08-04T12:55:54.198Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model的关联关系处理.md\u001b[39m","time":"2018-08-04T12:55:54.202Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件定义.md\u001b[39m","time":"2018-08-04T12:55:54.202Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/元数据.md\u001b[39m","time":"2018-08-04T12:55:54.206Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model简介.md\u001b[39m","time":"2018-08-04T12:55:54.210Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件小节.md\u001b[39m","time":"2018-08-04T12:55:54.210Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/定义模型.md\u001b[39m","time":"2018-08-04T12:55:54.214Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/新建、更新、删除记录.md\u001b[39m","time":"2018-08-04T12:55:54.219Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/处理事件.md\u001b[39m","time":"2018-08-04T12:55:54.220Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/查询记录.md\u001b[39m","time":"2018-08-04T12:55:54.225Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义序列化器.md\u001b[39m","time":"2018-08-04T12:55:54.229Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/自定义包裹组件的HTML标签.md\u001b[39m","time":"2018-08-04T12:55:54.230Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义适配器.md\u001b[39m","time":"2018-08-04T12:55:54.235Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/设置记录到Store.md\u001b[39m","time":"2018-08-04T12:55:54.240Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/包裹内容.md\u001b[39m","time":"2018-08-04T12:55:54.240Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/loading、error子状态.md\u001b[39m","time":"2018-08-04T12:55:54.244Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/异步路由.md\u001b[39m","time":"2018-08-04T12:55:54.246Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/指定与路由关联的模型.md\u001b[39m","time":"2018-08-04T12:55:54.249Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/查询参数.md\u001b[39m","time":"2018-08-04T12:55:54.255Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/模板渲染.md\u001b[39m","time":"2018-08-04T12:55:54.259Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/终止与重试路由跳转.md\u001b[39m","time":"2018-08-04T12:55:54.261Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由定义.md\u001b[39m","time":"2018-08-04T12:55:54.266Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由重定向.md\u001b[39m","time":"2018-08-04T12:55:54.269Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars基础.md\u001b[39m","time":"2018-08-04T12:55:54.271Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars属性绑定.md\u001b[39m","time":"2018-08-04T12:55:54.275Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars显示对象的键.md\u001b[39m","time":"2018-08-04T12:55:54.278Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars条件表达式.md\u001b[39m","time":"2018-08-04T12:55:54.282Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars遍历标签.md\u001b[39m","time":"2018-08-04T12:55:54.285Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{action}} 助手.md\u001b[39m","time":"2018-08-04T12:55:54.288Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{link-to}} 助手.md\u001b[39m","time":"2018-08-04T12:55:54.291Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/内置Helper.md\u001b[39m","time":"2018-08-04T12:55:54.295Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/工具类的助手.md\u001b[39m","time":"2018-08-04T12:55:54.297Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/番外篇，路由、模板的执行、渲染顺序.md\u001b[39m","time":"2018-08-04T12:55:54.300Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/第二章模板小结.md\u001b[39m","time":"2018-08-04T12:55:54.304Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/表单元素.md\u001b[39m","time":"2018-08-04T12:55:54.307Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/调试助手.md\u001b[39m","time":"2018-08-04T12:55:54.310Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/acceptanceTests.md\u001b[39m","time":"2018-08-04T12:55:54.314Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/introduction.md\u001b[39m","time":"2018-08-04T12:55:54.318Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingComponents.md\u001b[39m","time":"2018-08-04T12:55:54.322Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingControllers.md\u001b[39m","time":"2018-08-04T12:55:54.327Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingModels.md\u001b[39m","time":"2018-08-04T12:55:54.329Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingRoutes.md\u001b[39m","time":"2018-08-04T12:55:54.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/unitTestingBasics.md\u001b[39m","time":"2018-08-04T12:55:54.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":60,"err":{"message":"(unknown path) [Line 10, Column 95]\n  unexpected token: #","name":"Template render error","stack":"Template render error: (unknown path) [Line 10, Column 95]\n  unexpected token: #\n    at Object._prettifyError (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/lib.js:36:11)\n    at Template.render (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:524:21)\n    at Environment.renderString (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:362:17)\n    at Promise (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:66:9)\n    at Promise._execute (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/debuggability.js:303:9)\n    at Promise._resolveFromExecutor (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:483:18)\n    at new Promise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:79:10)\n    at Tag.render (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:64:10)\n    at Object.tagFilter [as onRenderEnd] (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/post.js:230:16)\n    at Promise.then.then.result (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/render.js:65:19)\n    at tryCatcher (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:651:20)\n    at tryOnImmediate (timers.js:624:5)\n    at processImmediate [as _immediateCallback] (timers.js:596:5)"},"msg":"Something's wrong. Maybe you can find the solution here: \u001b[4mhttp://hexo.io/docs/troubleshooting.html\u001b[24m","time":"2018-08-04T12:55:55.470Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15027,"level":20,"msg":"Database saved","time":"2018-08-04T12:55:55.698Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-08-04T12:57:13.592Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Working directory: \u001b[35m~/git/xcoding/\u001b[39m","time":"2018-08-04T12:57:13.595Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Config loaded: \u001b[35m~/git/xcoding/_config.yml\u001b[39m","time":"2018-08-04T12:57:13.701Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-08-04T12:57:13.737Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-08-04T12:57:13.741Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-08-04T12:57:13.743Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2018-08-04T12:57:13.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-08-04T12:57:13.747Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-search\u001b[39m","time":"2018-08-04T12:57:13.750Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-readingtime\u001b[39m","time":"2018-08-04T12:57:13.751Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-08-04T12:57:13.753Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-08-04T12:57:13.758Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-08-04T12:57:13.768Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-08-04T12:57:13.769Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-08-04T12:57:13.852Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/center-quote.js\u001b[39m","time":"2018-08-04T12:57:13.858Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/lazy-image.js\u001b[39m","time":"2018-08-04T12:57:13.858Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/note.js\u001b[39m","time":"2018-08-04T12:57:13.859Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Loading database.","time":"2018-08-04T12:57:13.867Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":30,"msg":"Start processing","time":"2018-08-04T12:57:14.070Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mCNAME\u001b[39m","time":"2018-08-04T12:57:14.122Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2018-08-04T12:57:14.191Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mabout/index.html\u001b[39m","time":"2018-08-04T12:57:14.191Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35matom/index.html\u001b[39m","time":"2018-08-04T12:57:14.191Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msearch/index.html\u001b[39m","time":"2018-08-04T12:57:14.191Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mtags/index.html\u001b[39m","time":"2018-08-04T12:57:14.192Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js代码备忘.md\u001b[39m","time":"2018-08-04T12:57:14.324Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js插件.md\u001b[39m","time":"2018-08-04T12:57:14.324Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js适配器跨域请求问题.md\u001b[39m","time":"2018-08-04T12:57:14.325Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember如何整合多说.md\u001b[39m","time":"2018-08-04T12:57:14.326Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/firebase数据访问权限设置.md\u001b[39m","time":"2018-08-04T12:57:14.326Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/access token生成.md\u001b[39m","time":"2018-08-04T12:57:14.327Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/refresh-current-routes-model-from-application-template.md\u001b[39m","time":"2018-08-04T12:57:14.327Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/动态加载Bootstrap.md\u001b[39m","time":"2018-08-04T12:57:14.327Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/升级Ember-cli.md\u001b[39m","time":"2018-08-04T12:57:14.327Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/发布项目到Firebase.md\u001b[39m","time":"2018-08-04T12:57:14.327Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/监听全局错误信息.md\u001b[39m","time":"2018-08-04T12:57:14.327Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/自定义IF判断.md\u001b[39m","time":"2018-08-04T12:57:14.328Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/获取当前URL.md\u001b[39m","time":"2018-08-04T12:57:14.328Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/Git的错误error Failed connect to github.com443;解决办法.md\u001b[39m","time":"2018-08-04T12:57:14.328Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/在github上同步一个分支(fork).md\u001b[39m","time":"2018-08-04T12:57:14.328Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/提交项目到GitHub，还原某个文件.md\u001b[39m","time":"2018-08-04T12:57:14.328Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Java/eclipse、MyEclipse安装插件的万能方法.md\u001b[39m","time":"2018-08-04T12:57:14.328Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Java/maven引入本地JAR包.md\u001b[39m","time":"2018-08-04T12:57:14.329Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux 空间满问题分析.md\u001b[39m","time":"2018-08-04T12:57:14.329Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux安装配置JDK.md\u001b[39m","time":"2018-08-04T12:57:14.329Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/ubuntu安装主题.md\u001b[39m","time":"2018-08-04T12:57:14.329Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/xxx is not in the sudoers file.This incident will be reported.的解决方法.md\u001b[39m","time":"2018-08-04T12:57:14.329Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/增加用户并且授root权.md\u001b[39m","time":"2018-08-04T12:57:14.329Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/Mac无法开机.md\u001b[39m","time":"2018-08-04T12:57:14.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/环境变量配置错误时临时解救办法.md\u001b[39m","time":"2018-08-04T12:57:14.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/express获取参数的方法.md\u001b[39m","time":"2018-08-04T12:57:14.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/创建npm插件.md\u001b[39m","time":"2018-08-04T12:57:14.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/Ruby/SSL证书问题.md\u001b[39m","time":"2018-08-04T12:57:14.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/README.md\u001b[39m","time":"2018-08-04T12:57:14.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/ember.js最常用的addon.md\u001b[39m","time":"2018-08-04T12:57:14.330Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/emberjs常见错误集.md\u001b[39m","time":"2018-08-04T12:57:14.331Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/fq/强制 Google.com 域名使用 HTTPS（SSL）.md\u001b[39m","time":"2018-08-04T12:57:14.331Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈.md\u001b[39m","time":"2018-08-04T12:57:14.331Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈学习笔记.md\u001b[39m","time":"2018-08-04T12:57:14.331Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之一框架总说明.md\u001b[39m","time":"2018-08-04T12:57:14.331Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之七框架拦截器ActionServlet定义、配置.md\u001b[39m","time":"2018-08-04T12:57:14.331Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之三Action接口定义.md\u001b[39m","time":"2018-08-04T12:57:14.331Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之二action配置文件定义.md\u001b[39m","time":"2018-08-04T12:57:14.332Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之五配置文件解析器ActionMappingManager定义.md\u001b[39m","time":"2018-08-04T12:57:14.332Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之八使用框架模拟登陆.md\u001b[39m","time":"2018-08-04T12:57:14.332Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之六ActionManager定义.md\u001b[39m","time":"2018-08-04T12:57:14.334Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之四ActionMapping定义.md\u001b[39m","time":"2018-08-04T12:57:14.334Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/鸡汤/程序员的3年之痒改变的不止薪水.md\u001b[39m","time":"2018-08-04T12:57:14.334Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/js/xoxo.js\u001b[39m","time":"2018-08-04T12:57:14.336Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Theme config loaded.","time":"2018-08-04T12:57:14.347Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2018-08-04T12:57:14.350Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/common.less\u001b[39m","time":"2018-08-04T12:57:14.350Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/core.less\u001b[39m","time":"2018-08-04T12:57:14.351Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/highlight.less\u001b[39m","time":"2018-08-04T12:57:14.351Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/mixin.less\u001b[39m","time":"2018-08-04T12:57:14.352Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/normalize.css\u001b[39m","time":"2018-08-04T12:57:14.353Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/variables.less\u001b[39m","time":"2018-08-04T12:57:14.353Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/pure-min.css\u001b[39m","time":"2018-08-04T12:57:14.354Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css\u001b[39m","time":"2018-08-04T12:57:14.357Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css.map\u001b[39m","time":"2018-08-04T12:57:14.358Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.less\u001b[39m","time":"2018-08-04T12:57:14.360Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css\u001b[39m","time":"2018-08-04T12:57:14.361Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css.map\u001b[39m","time":"2018-08-04T12:57:14.361Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/image/favicon.ico\u001b[39m","time":"2018-08-04T12:57:14.362Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/枚举（enumerables）.md\u001b[39m","time":"2018-08-04T12:57:14.481Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/第一章对象模型小结.md\u001b[39m","time":"2018-08-04T12:57:14.481Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的定义、初始化、继承.md\u001b[39m","time":"2018-08-04T12:57:14.481Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的扩展.md\u001b[39m","time":"2018-08-04T12:57:14.481Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/观察者（observer）.md\u001b[39m","time":"2018-08-04T12:57:14.481Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/绑定（bingding）.md\u001b[39m","time":"2018-08-04T12:57:14.482Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/计算属性（compute properties）.md\u001b[39m","time":"2018-08-04T12:57:14.482Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/包裹内容.md\u001b[39m","time":"2018-08-04T12:57:14.482Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/action触发变化.md\u001b[39m","time":"2018-08-04T12:57:14.482Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/处理事件.md\u001b[39m","time":"2018-08-04T12:57:14.482Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/属性传递.md\u001b[39m","time":"2018-08-04T12:57:14.482Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件定义.md\u001b[39m","time":"2018-08-04T12:57:14.483Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件小节.md\u001b[39m","time":"2018-08-04T12:57:14.483Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/自定义包裹组件的HTML标签.md\u001b[39m","time":"2018-08-04T12:57:14.483Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/控制器（controller）.md\u001b[39m","time":"2018-08-04T12:57:14.483Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/管理controller之间的依赖关系.md\u001b[39m","time":"2018-08-04T12:57:14.483Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model的关联关系处理.md\u001b[39m","time":"2018-08-04T12:57:14.483Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model简介.md\u001b[39m","time":"2018-08-04T12:57:14.483Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/元数据.md\u001b[39m","time":"2018-08-04T12:57:14.483Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/定义模型.md\u001b[39m","time":"2018-08-04T12:57:14.485Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/新建、更新、删除记录.md\u001b[39m","time":"2018-08-04T12:57:14.485Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/查询记录.md\u001b[39m","time":"2018-08-04T12:57:14.485Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义序列化器.md\u001b[39m","time":"2018-08-04T12:57:14.485Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义适配器.md\u001b[39m","time":"2018-08-04T12:57:14.485Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/设置记录到Store.md\u001b[39m","time":"2018-08-04T12:57:14.485Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/loading、error子状态.md\u001b[39m","time":"2018-08-04T12:57:14.486Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/异步路由.md\u001b[39m","time":"2018-08-04T12:57:14.486Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/指定与路由关联的模型.md\u001b[39m","time":"2018-08-04T12:57:14.486Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/查询参数.md\u001b[39m","time":"2018-08-04T12:57:14.486Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/模板渲染.md\u001b[39m","time":"2018-08-04T12:57:14.486Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/终止与重试路由跳转.md\u001b[39m","time":"2018-08-04T12:57:14.486Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由定义.md\u001b[39m","time":"2018-08-04T12:57:14.486Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由重定向.md\u001b[39m","time":"2018-08-04T12:57:14.487Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars基础.md\u001b[39m","time":"2018-08-04T12:57:14.487Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars属性绑定.md\u001b[39m","time":"2018-08-04T12:57:14.487Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars显示对象的键.md\u001b[39m","time":"2018-08-04T12:57:14.487Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars条件表达式.md\u001b[39m","time":"2018-08-04T12:57:14.487Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars遍历标签.md\u001b[39m","time":"2018-08-04T12:57:14.487Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{action}} 助手.md\u001b[39m","time":"2018-08-04T12:57:14.488Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{link-to}} 助手.md\u001b[39m","time":"2018-08-04T12:57:14.488Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/内置Helper.md\u001b[39m","time":"2018-08-04T12:57:14.488Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/工具类的助手.md\u001b[39m","time":"2018-08-04T12:57:14.488Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/番外篇，路由、模板的执行、渲染顺序.md\u001b[39m","time":"2018-08-04T12:57:14.488Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/第二章模板小结.md\u001b[39m","time":"2018-08-04T12:57:14.489Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/表单元素.md\u001b[39m","time":"2018-08-04T12:57:14.489Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/调试助手.md\u001b[39m","time":"2018-08-04T12:57:14.489Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/acceptanceTests.md\u001b[39m","time":"2018-08-04T12:57:14.489Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/introduction.md\u001b[39m","time":"2018-08-04T12:57:14.490Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingComponents.md\u001b[39m","time":"2018-08-04T12:57:14.490Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingControllers.md\u001b[39m","time":"2018-08-04T12:57:14.490Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingModels.md\u001b[39m","time":"2018-08-04T12:57:14.490Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingRoutes.md\u001b[39m","time":"2018-08-04T12:57:14.491Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/archive.ejs\u001b[39m","time":"2018-08-04T12:57:14.507Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/index.ejs\u001b[39m","time":"2018-08-04T12:57:14.507Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/layout.ejs\u001b[39m","time":"2018-08-04T12:57:14.507Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/page.ejs\u001b[39m","time":"2018-08-04T12:57:14.507Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/post.ejs\u001b[39m","time":"2018-08-04T12:57:14.507Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/tag.ejs\u001b[39m","time":"2018-08-04T12:57:14.507Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlanguages/default.yml\u001b[39m","time":"2018-08-04T12:57:14.509Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlanguages/en.yml\u001b[39m","time":"2018-08-04T12:57:14.509Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-CN.yml\u001b[39m","time":"2018-08-04T12:57:14.509Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-TW.yml\u001b[39m","time":"2018-08-04T12:57:14.509Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35msource/image/ape-note1.jpg\u001b[39m","time":"2018-08-04T12:57:14.510Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive-post.ejs\u001b[39m","time":"2018-08-04T12:57:14.534Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/analytics.ejs\u001b[39m","time":"2018-08-04T12:57:14.534Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive.ejs\u001b[39m","time":"2018-08-04T12:57:14.534Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/copyright.ejs\u001b[39m","time":"2018-08-04T12:57:14.535Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/disqus.ejs\u001b[39m","time":"2018-08-04T12:57:14.535Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/footer.ejs\u001b[39m","time":"2018-08-04T12:57:14.535Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/head.ejs\u001b[39m","time":"2018-08-04T12:57:14.535Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/js.ejs\u001b[39m","time":"2018-08-04T12:57:14.535Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/nav.ejs\u001b[39m","time":"2018-08-04T12:57:14.536Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/prenext.ejs\u001b[39m","time":"2018-08-04T12:57:14.537Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/recent-posts.ejs\u001b[39m","time":"2018-08-04T12:57:14.537Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/scripts.ejs\u001b[39m","time":"2018-08-04T12:57:14.537Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/search.ejs\u001b[39m","time":"2018-08-04T12:57:14.538Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/share.ejs\u001b[39m","time":"2018-08-04T12:57:14.538Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35mlayout/partials/toc.ejs\u001b[39m","time":"2018-08-04T12:57:14.538Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/unitTestingBasics.md\u001b[39m","time":"2018-08-04T12:57:14.583Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":60,"err":{"message":"(unknown path) [Line 10, Column 95]\n  unexpected token: #","name":"Template render error","stack":"Template render error: (unknown path) [Line 10, Column 95]\n  unexpected token: #\n    at Object._prettifyError (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/lib.js:36:11)\n    at Template.render (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:524:21)\n    at Environment.renderString (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:362:17)\n    at Promise (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:66:9)\n    at Promise._execute (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/debuggability.js:303:9)\n    at Promise._resolveFromExecutor (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:483:18)\n    at new Promise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:79:10)\n    at Tag.render (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:64:10)\n    at Object.tagFilter [as onRenderEnd] (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/post.js:230:16)\n    at Promise.then.then.result (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/render.js:65:19)\n    at tryCatcher (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:651:20)\n    at tryOnImmediate (timers.js:624:5)\n    at processImmediate [as _immediateCallback] (timers.js:596:5)"},"msg":"Something's wrong. Maybe you can find the solution here: \u001b[4mhttp://hexo.io/docs/troubleshooting.html\u001b[24m","time":"2018-08-04T12:57:15.810Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15186,"level":20,"msg":"Database saved","time":"2018-08-04T12:57:16.019Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-08-04T12:58:57.883Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Working directory: \u001b[35m~/git/xcoding/\u001b[39m","time":"2018-08-04T12:58:57.886Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Config loaded: \u001b[35m~/git/xcoding/_config.yml\u001b[39m","time":"2018-08-04T12:58:57.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-08-04T12:58:58.020Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-08-04T12:58:58.025Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-08-04T12:58:58.027Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2018-08-04T12:58:58.032Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-08-04T12:58:58.033Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-search\u001b[39m","time":"2018-08-04T12:58:58.036Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-08-04T12:58:58.037Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-readingtime\u001b[39m","time":"2018-08-04T12:58:58.039Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-08-04T12:58:58.044Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-08-04T12:58:58.053Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-08-04T12:58:58.055Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-08-04T12:58:58.131Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/center-quote.js\u001b[39m","time":"2018-08-04T12:58:58.143Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/lazy-image.js\u001b[39m","time":"2018-08-04T12:58:58.143Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/note.js\u001b[39m","time":"2018-08-04T12:58:58.144Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Loading database.","time":"2018-08-04T12:58:58.154Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":30,"msg":"Start processing","time":"2018-08-04T12:58:58.358Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mCNAME\u001b[39m","time":"2018-08-04T12:58:58.407Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2018-08-04T12:58:58.465Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mabout/index.html\u001b[39m","time":"2018-08-04T12:58:58.465Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35matom/index.html\u001b[39m","time":"2018-08-04T12:58:58.465Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msearch/index.html\u001b[39m","time":"2018-08-04T12:58:58.465Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mtags/index.html\u001b[39m","time":"2018-08-04T12:58:58.465Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js代码备忘.md\u001b[39m","time":"2018-08-04T12:58:58.589Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js插件.md\u001b[39m","time":"2018-08-04T12:58:58.590Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js适配器跨域请求问题.md\u001b[39m","time":"2018-08-04T12:58:58.590Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember如何整合多说.md\u001b[39m","time":"2018-08-04T12:58:58.590Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/access token生成.md\u001b[39m","time":"2018-08-04T12:58:58.590Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/firebase数据访问权限设置.md\u001b[39m","time":"2018-08-04T12:58:58.590Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/refresh-current-routes-model-from-application-template.md\u001b[39m","time":"2018-08-04T12:58:58.590Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/动态加载Bootstrap.md\u001b[39m","time":"2018-08-04T12:58:58.591Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/升级Ember-cli.md\u001b[39m","time":"2018-08-04T12:58:58.591Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/发布项目到Firebase.md\u001b[39m","time":"2018-08-04T12:58:58.591Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/监听全局错误信息.md\u001b[39m","time":"2018-08-04T12:58:58.591Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/自定义IF判断.md\u001b[39m","time":"2018-08-04T12:58:58.591Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/获取当前URL.md\u001b[39m","time":"2018-08-04T12:58:58.591Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/Git的错误error Failed connect to github.com443;解决办法.md\u001b[39m","time":"2018-08-04T12:58:58.592Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/在github上同步一个分支(fork).md\u001b[39m","time":"2018-08-04T12:58:58.592Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/提交项目到GitHub，还原某个文件.md\u001b[39m","time":"2018-08-04T12:58:58.592Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Java/eclipse、MyEclipse安装插件的万能方法.md\u001b[39m","time":"2018-08-04T12:58:58.592Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Java/maven引入本地JAR包.md\u001b[39m","time":"2018-08-04T12:58:58.592Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux 空间满问题分析.md\u001b[39m","time":"2018-08-04T12:58:58.592Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux安装配置JDK.md\u001b[39m","time":"2018-08-04T12:58:58.593Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/ubuntu安装主题.md\u001b[39m","time":"2018-08-04T12:58:58.593Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/xxx is not in the sudoers file.This incident will be reported.的解决方法.md\u001b[39m","time":"2018-08-04T12:58:58.593Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/增加用户并且授root权.md\u001b[39m","time":"2018-08-04T12:58:58.593Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/Mac无法开机.md\u001b[39m","time":"2018-08-04T12:58:58.593Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/环境变量配置错误时临时解救办法.md\u001b[39m","time":"2018-08-04T12:58:58.593Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/express获取参数的方法.md\u001b[39m","time":"2018-08-04T12:58:58.593Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/创建npm插件.md\u001b[39m","time":"2018-08-04T12:58:58.594Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/Ruby/SSL证书问题.md\u001b[39m","time":"2018-08-04T12:58:58.594Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/README.md\u001b[39m","time":"2018-08-04T12:58:58.594Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/ember.js最常用的addon.md\u001b[39m","time":"2018-08-04T12:58:58.596Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/emberjs常见错误集.md\u001b[39m","time":"2018-08-04T12:58:58.596Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/fq/强制 Google.com 域名使用 HTTPS（SSL）.md\u001b[39m","time":"2018-08-04T12:58:58.596Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈.md\u001b[39m","time":"2018-08-04T12:58:58.597Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈学习笔记.md\u001b[39m","time":"2018-08-04T12:58:58.597Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之一框架总说明.md\u001b[39m","time":"2018-08-04T12:58:58.597Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之七框架拦截器ActionServlet定义、配置.md\u001b[39m","time":"2018-08-04T12:58:58.597Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之三Action接口定义.md\u001b[39m","time":"2018-08-04T12:58:58.597Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之二action配置文件定义.md\u001b[39m","time":"2018-08-04T12:58:58.597Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之五配置文件解析器ActionMappingManager定义.md\u001b[39m","time":"2018-08-04T12:58:58.597Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之八使用框架模拟登陆.md\u001b[39m","time":"2018-08-04T12:58:58.598Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之六ActionManager定义.md\u001b[39m","time":"2018-08-04T12:58:58.598Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之四ActionMapping定义.md\u001b[39m","time":"2018-08-04T12:58:58.598Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/鸡汤/程序员的3年之痒改变的不止薪水.md\u001b[39m","time":"2018-08-04T12:58:58.598Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/js/xoxo.js\u001b[39m","time":"2018-08-04T12:58:58.600Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Theme config loaded.","time":"2018-08-04T12:58:58.617Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2018-08-04T12:58:58.619Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/common.less\u001b[39m","time":"2018-08-04T12:58:58.619Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/core.less\u001b[39m","time":"2018-08-04T12:58:58.621Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/highlight.less\u001b[39m","time":"2018-08-04T12:58:58.621Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/mixin.less\u001b[39m","time":"2018-08-04T12:58:58.622Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/normalize.css\u001b[39m","time":"2018-08-04T12:58:58.623Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/pure-min.css\u001b[39m","time":"2018-08-04T12:58:58.624Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/variables.less\u001b[39m","time":"2018-08-04T12:58:58.625Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css\u001b[39m","time":"2018-08-04T12:58:58.629Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css.map\u001b[39m","time":"2018-08-04T12:58:58.629Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.less\u001b[39m","time":"2018-08-04T12:58:58.631Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css\u001b[39m","time":"2018-08-04T12:58:58.632Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css.map\u001b[39m","time":"2018-08-04T12:58:58.632Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/image/favicon.ico\u001b[39m","time":"2018-08-04T12:58:58.632Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/枚举（enumerables）.md\u001b[39m","time":"2018-08-04T12:58:58.742Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/第一章对象模型小结.md\u001b[39m","time":"2018-08-04T12:58:58.742Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的定义、初始化、继承.md\u001b[39m","time":"2018-08-04T12:58:58.742Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的扩展.md\u001b[39m","time":"2018-08-04T12:58:58.742Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/绑定（bingding）.md\u001b[39m","time":"2018-08-04T12:58:58.743Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/观察者（observer）.md\u001b[39m","time":"2018-08-04T12:58:58.743Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/计算属性（compute properties）.md\u001b[39m","time":"2018-08-04T12:58:58.743Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/action触发变化.md\u001b[39m","time":"2018-08-04T12:58:58.744Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/包裹内容.md\u001b[39m","time":"2018-08-04T12:58:58.744Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/处理事件.md\u001b[39m","time":"2018-08-04T12:58:58.744Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/属性传递.md\u001b[39m","time":"2018-08-04T12:58:58.744Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件定义.md\u001b[39m","time":"2018-08-04T12:58:58.744Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件小节.md\u001b[39m","time":"2018-08-04T12:58:58.744Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/自定义包裹组件的HTML标签.md\u001b[39m","time":"2018-08-04T12:58:58.744Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/控制器（controller）.md\u001b[39m","time":"2018-08-04T12:58:58.745Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/管理controller之间的依赖关系.md\u001b[39m","time":"2018-08-04T12:58:58.745Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model的关联关系处理.md\u001b[39m","time":"2018-08-04T12:58:58.745Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model简介.md\u001b[39m","time":"2018-08-04T12:58:58.745Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/元数据.md\u001b[39m","time":"2018-08-04T12:58:58.745Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/定义模型.md\u001b[39m","time":"2018-08-04T12:58:58.745Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/新建、更新、删除记录.md\u001b[39m","time":"2018-08-04T12:58:58.745Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/查询记录.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义序列化器.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义适配器.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/设置记录到Store.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/loading、error子状态.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/异步路由.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/指定与路由关联的模型.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/查询参数.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/模板渲染.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/终止与重试路由跳转.md\u001b[39m","time":"2018-08-04T12:58:58.746Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由重定向.md\u001b[39m","time":"2018-08-04T12:58:58.747Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由定义.md\u001b[39m","time":"2018-08-04T12:58:58.747Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/acceptanceTests.md\u001b[39m","time":"2018-08-04T12:58:58.747Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/introduction.md\u001b[39m","time":"2018-08-04T12:58:58.747Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingComponents.md\u001b[39m","time":"2018-08-04T12:58:58.747Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingControllers.md\u001b[39m","time":"2018-08-04T12:58:58.747Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingModels.md\u001b[39m","time":"2018-08-04T12:58:58.747Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingRoutes.md\u001b[39m","time":"2018-08-04T12:58:58.748Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars基础.md\u001b[39m","time":"2018-08-04T12:58:58.748Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars属性绑定.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars显示对象的键.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars条件表达式.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars遍历标签.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{action}} 助手.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{link-to}} 助手.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/内置Helper.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/工具类的助手.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/番外篇，路由、模板的执行、渲染顺序.md\u001b[39m","time":"2018-08-04T12:58:58.749Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/第二章模板小结.md\u001b[39m","time":"2018-08-04T12:58:58.750Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/表单元素.md\u001b[39m","time":"2018-08-04T12:58:58.751Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/调试助手.md\u001b[39m","time":"2018-08-04T12:58:58.751Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/index.ejs\u001b[39m","time":"2018-08-04T12:58:58.768Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/archive.ejs\u001b[39m","time":"2018-08-04T12:58:58.768Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/layout.ejs\u001b[39m","time":"2018-08-04T12:58:58.768Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/page.ejs\u001b[39m","time":"2018-08-04T12:58:58.768Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/post.ejs\u001b[39m","time":"2018-08-04T12:58:58.768Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/tag.ejs\u001b[39m","time":"2018-08-04T12:58:58.768Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlanguages/default.yml\u001b[39m","time":"2018-08-04T12:58:58.770Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlanguages/en.yml\u001b[39m","time":"2018-08-04T12:58:58.770Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-CN.yml\u001b[39m","time":"2018-08-04T12:58:58.770Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-TW.yml\u001b[39m","time":"2018-08-04T12:58:58.770Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35msource/image/ape-note1.jpg\u001b[39m","time":"2018-08-04T12:58:58.770Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/analytics.ejs\u001b[39m","time":"2018-08-04T12:58:58.786Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive-post.ejs\u001b[39m","time":"2018-08-04T12:58:58.787Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive.ejs\u001b[39m","time":"2018-08-04T12:58:58.787Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/copyright.ejs\u001b[39m","time":"2018-08-04T12:58:58.788Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/disqus.ejs\u001b[39m","time":"2018-08-04T12:58:58.789Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/footer.ejs\u001b[39m","time":"2018-08-04T12:58:58.790Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/head.ejs\u001b[39m","time":"2018-08-04T12:58:58.791Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/js.ejs\u001b[39m","time":"2018-08-04T12:58:58.791Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/nav.ejs\u001b[39m","time":"2018-08-04T12:58:58.791Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/prenext.ejs\u001b[39m","time":"2018-08-04T12:58:58.791Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/recent-posts.ejs\u001b[39m","time":"2018-08-04T12:58:58.791Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/scripts.ejs\u001b[39m","time":"2018-08-04T12:58:58.791Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/search.ejs\u001b[39m","time":"2018-08-04T12:58:58.792Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/share.ejs\u001b[39m","time":"2018-08-04T12:58:58.792Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35mlayout/partials/toc.ejs\u001b[39m","time":"2018-08-04T12:58:58.792Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/unitTestingBasics.md\u001b[39m","time":"2018-08-04T12:58:58.832Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":60,"err":{"message":"(unknown path) [Line 10, Column 95]\n  unexpected token: #","name":"Template render error","stack":"Template render error: (unknown path) [Line 10, Column 95]\n  unexpected token: #\n    at Object._prettifyError (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/lib.js:36:11)\n    at Template.render (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:524:21)\n    at Environment.renderString (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:362:17)\n    at Promise (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:66:9)\n    at Promise._execute (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/debuggability.js:303:9)\n    at Promise._resolveFromExecutor (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:483:18)\n    at new Promise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:79:10)\n    at Tag.render (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:64:10)\n    at Object.tagFilter [as onRenderEnd] (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/post.js:230:16)\n    at Promise.then.then.result (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/render.js:65:19)\n    at tryCatcher (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:651:20)\n    at tryOnImmediate (timers.js:624:5)\n    at processImmediate [as _immediateCallback] (timers.js:596:5)"},"msg":"Something's wrong. Maybe you can find the solution here: \u001b[4mhttp://hexo.io/docs/troubleshooting.html\u001b[24m","time":"2018-08-04T12:59:00.095Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15402,"level":20,"msg":"Database saved","time":"2018-08-04T12:59:00.292Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-08-04T12:59:35.056Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Working directory: \u001b[35m~/git/xcoding/\u001b[39m","time":"2018-08-04T12:59:35.059Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Config loaded: \u001b[35m~/git/xcoding/_config.yml\u001b[39m","time":"2018-08-04T12:59:35.168Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-08-04T12:59:35.204Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-08-04T12:59:35.209Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-08-04T12:59:35.211Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2018-08-04T12:59:35.216Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-08-04T12:59:35.217Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-search\u001b[39m","time":"2018-08-04T12:59:35.220Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-08-04T12:59:35.223Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-readingtime\u001b[39m","time":"2018-08-04T12:59:35.225Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-08-04T12:59:35.230Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-08-04T12:59:35.237Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-08-04T12:59:35.239Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-08-04T12:59:35.327Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/lazy-image.js\u001b[39m","time":"2018-08-04T12:59:35.333Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/center-quote.js\u001b[39m","time":"2018-08-04T12:59:35.334Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/note.js\u001b[39m","time":"2018-08-04T12:59:35.334Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Loading database.","time":"2018-08-04T12:59:35.342Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":30,"msg":"Start processing","time":"2018-08-04T12:59:35.547Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mCNAME\u001b[39m","time":"2018-08-04T12:59:35.599Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2018-08-04T12:59:35.656Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mabout/index.html\u001b[39m","time":"2018-08-04T12:59:35.657Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35matom/index.html\u001b[39m","time":"2018-08-04T12:59:35.721Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msearch/index.html\u001b[39m","time":"2018-08-04T12:59:35.721Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mtags/index.html\u001b[39m","time":"2018-08-04T12:59:35.722Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js代码备忘.md\u001b[39m","time":"2018-08-04T12:59:35.821Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js插件.md\u001b[39m","time":"2018-08-04T12:59:35.821Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js适配器跨域请求问题.md\u001b[39m","time":"2018-08-04T12:59:35.821Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember如何整合多说.md\u001b[39m","time":"2018-08-04T12:59:35.821Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/access token生成.md\u001b[39m","time":"2018-08-04T12:59:35.821Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/refresh-current-routes-model-from-application-template.md\u001b[39m","time":"2018-08-04T12:59:35.822Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/firebase数据访问权限设置.md\u001b[39m","time":"2018-08-04T12:59:35.822Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/动态加载Bootstrap.md\u001b[39m","time":"2018-08-04T12:59:35.822Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/升级Ember-cli.md\u001b[39m","time":"2018-08-04T12:59:35.822Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/发布项目到Firebase.md\u001b[39m","time":"2018-08-04T12:59:35.822Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/监听全局错误信息.md\u001b[39m","time":"2018-08-04T12:59:35.823Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/自定义IF判断.md\u001b[39m","time":"2018-08-04T12:59:35.823Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/获取当前URL.md\u001b[39m","time":"2018-08-04T12:59:35.823Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/Git的错误error Failed connect to github.com443;解决办法.md\u001b[39m","time":"2018-08-04T12:59:35.823Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/在github上同步一个分支(fork).md\u001b[39m","time":"2018-08-04T12:59:35.823Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/提交项目到GitHub，还原某个文件.md\u001b[39m","time":"2018-08-04T12:59:35.824Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Java/eclipse、MyEclipse安装插件的万能方法.md\u001b[39m","time":"2018-08-04T12:59:35.824Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Java/maven引入本地JAR包.md\u001b[39m","time":"2018-08-04T12:59:35.824Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux 空间满问题分析.md\u001b[39m","time":"2018-08-04T12:59:35.824Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux安装配置JDK.md\u001b[39m","time":"2018-08-04T12:59:35.825Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/ubuntu安装主题.md\u001b[39m","time":"2018-08-04T12:59:35.825Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/xxx is not in the sudoers file.This incident will be reported.的解决方法.md\u001b[39m","time":"2018-08-04T12:59:35.826Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/增加用户并且授root权.md\u001b[39m","time":"2018-08-04T12:59:35.827Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/Mac无法开机.md\u001b[39m","time":"2018-08-04T12:59:35.827Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/环境变量配置错误时临时解救办法.md\u001b[39m","time":"2018-08-04T12:59:35.828Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/express获取参数的方法.md\u001b[39m","time":"2018-08-04T12:59:35.829Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/创建npm插件.md\u001b[39m","time":"2018-08-04T12:59:35.829Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/Ruby/SSL证书问题.md\u001b[39m","time":"2018-08-04T12:59:35.830Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/README.md\u001b[39m","time":"2018-08-04T12:59:35.830Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/ember.js最常用的addon.md\u001b[39m","time":"2018-08-04T12:59:35.831Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/emberjs常见错误集.md\u001b[39m","time":"2018-08-04T12:59:35.832Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/fq/强制 Google.com 域名使用 HTTPS（SSL）.md\u001b[39m","time":"2018-08-04T12:59:35.834Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈.md\u001b[39m","time":"2018-08-04T12:59:35.834Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈学习笔记.md\u001b[39m","time":"2018-08-04T12:59:35.834Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之一框架总说明.md\u001b[39m","time":"2018-08-04T12:59:35.835Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之七框架拦截器ActionServlet定义、配置.md\u001b[39m","time":"2018-08-04T12:59:35.835Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之三Action接口定义.md\u001b[39m","time":"2018-08-04T12:59:35.835Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之二action配置文件定义.md\u001b[39m","time":"2018-08-04T12:59:35.835Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之五配置文件解析器ActionMappingManager定义.md\u001b[39m","time":"2018-08-04T12:59:35.836Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之八使用框架模拟登陆.md\u001b[39m","time":"2018-08-04T12:59:35.836Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之六ActionManager定义.md\u001b[39m","time":"2018-08-04T12:59:35.836Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之四ActionMapping定义.md\u001b[39m","time":"2018-08-04T12:59:35.836Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/鸡汤/程序员的3年之痒改变的不止薪水.md\u001b[39m","time":"2018-08-04T12:59:35.837Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/js/xoxo.js\u001b[39m","time":"2018-08-04T12:59:35.838Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Theme config loaded.","time":"2018-08-04T12:59:35.854Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2018-08-04T12:59:35.858Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/common.less\u001b[39m","time":"2018-08-04T12:59:35.858Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/core.less\u001b[39m","time":"2018-08-04T12:59:35.859Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/highlight.less\u001b[39m","time":"2018-08-04T12:59:35.859Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/mixin.less\u001b[39m","time":"2018-08-04T12:59:35.860Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/normalize.css\u001b[39m","time":"2018-08-04T12:59:35.860Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/pure-min.css\u001b[39m","time":"2018-08-04T12:59:35.860Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/variables.less\u001b[39m","time":"2018-08-04T12:59:35.861Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css\u001b[39m","time":"2018-08-04T12:59:35.863Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css.map\u001b[39m","time":"2018-08-04T12:59:35.865Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.less\u001b[39m","time":"2018-08-04T12:59:35.868Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css\u001b[39m","time":"2018-08-04T12:59:35.868Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css.map\u001b[39m","time":"2018-08-04T12:59:35.869Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/image/favicon.ico\u001b[39m","time":"2018-08-04T12:59:35.869Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/枚举（enumerables）.md\u001b[39m","time":"2018-08-04T12:59:35.981Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/第一章对象模型小结.md\u001b[39m","time":"2018-08-04T12:59:35.981Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的定义、初始化、继承.md\u001b[39m","time":"2018-08-04T12:59:35.981Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的扩展.md\u001b[39m","time":"2018-08-04T12:59:35.981Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/绑定（bingding）.md\u001b[39m","time":"2018-08-04T12:59:35.981Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/观察者（observer）.md\u001b[39m","time":"2018-08-04T12:59:35.982Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/计算属性（compute properties）.md\u001b[39m","time":"2018-08-04T12:59:35.982Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/控制器（controller）.md\u001b[39m","time":"2018-08-04T12:59:35.982Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/管理controller之间的依赖关系.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/action触发变化.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/包裹内容.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/处理事件.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/属性传递.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件定义.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件小节.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/自定义包裹组件的HTML标签.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model的关联关系处理.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model简介.md\u001b[39m","time":"2018-08-04T12:59:35.983Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/元数据.md\u001b[39m","time":"2018-08-04T12:59:35.984Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/定义模型.md\u001b[39m","time":"2018-08-04T12:59:35.984Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/新建、更新、删除记录.md\u001b[39m","time":"2018-08-04T12:59:35.984Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/查询记录.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义序列化器.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义适配器.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/设置记录到Store.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/loading、error子状态.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/异步路由.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/指定与路由关联的模型.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/模板渲染.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/查询参数.md\u001b[39m","time":"2018-08-04T12:59:35.985Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/终止与重试路由跳转.md\u001b[39m","time":"2018-08-04T12:59:35.986Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由重定向.md\u001b[39m","time":"2018-08-04T12:59:35.986Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由定义.md\u001b[39m","time":"2018-08-04T12:59:35.986Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars基础.md\u001b[39m","time":"2018-08-04T12:59:35.986Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars属性绑定.md\u001b[39m","time":"2018-08-04T12:59:35.986Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars显示对象的键.md\u001b[39m","time":"2018-08-04T12:59:35.986Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars条件表达式.md\u001b[39m","time":"2018-08-04T12:59:35.986Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars遍历标签.md\u001b[39m","time":"2018-08-04T12:59:35.986Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{action}} 助手.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{link-to}} 助手.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/工具类的助手.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/内置Helper.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/番外篇，路由、模板的执行、渲染顺序.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/第二章模板小结.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/表单元素.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/调试助手.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/acceptanceTests.md\u001b[39m","time":"2018-08-04T12:59:35.987Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/introduction.md\u001b[39m","time":"2018-08-04T12:59:35.988Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingComponents.md\u001b[39m","time":"2018-08-04T12:59:35.989Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingControllers.md\u001b[39m","time":"2018-08-04T12:59:35.989Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingModels.md\u001b[39m","time":"2018-08-04T12:59:35.989Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingRoutes.md\u001b[39m","time":"2018-08-04T12:59:35.989Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/archive.ejs\u001b[39m","time":"2018-08-04T12:59:36.004Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/index.ejs\u001b[39m","time":"2018-08-04T12:59:36.004Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/layout.ejs\u001b[39m","time":"2018-08-04T12:59:36.004Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/page.ejs\u001b[39m","time":"2018-08-04T12:59:36.004Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/post.ejs\u001b[39m","time":"2018-08-04T12:59:36.004Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/tag.ejs\u001b[39m","time":"2018-08-04T12:59:36.005Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlanguages/default.yml\u001b[39m","time":"2018-08-04T12:59:36.006Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlanguages/en.yml\u001b[39m","time":"2018-08-04T12:59:36.006Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-CN.yml\u001b[39m","time":"2018-08-04T12:59:36.007Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-TW.yml\u001b[39m","time":"2018-08-04T12:59:36.007Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35msource/image/ape-note1.jpg\u001b[39m","time":"2018-08-04T12:59:36.007Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/analytics.ejs\u001b[39m","time":"2018-08-04T12:59:36.037Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive-post.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/copyright.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/disqus.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/footer.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/head.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/js.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/nav.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/prenext.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/recent-posts.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/scripts.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/search.ejs\u001b[39m","time":"2018-08-04T12:59:36.038Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/share.ejs\u001b[39m","time":"2018-08-04T12:59:36.039Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35mlayout/partials/toc.ejs\u001b[39m","time":"2018-08-04T12:59:36.039Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/unitTestingBasics.md\u001b[39m","time":"2018-08-04T12:59:36.098Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":60,"err":{"message":"(unknown path) [Line 10, Column 95]\n  unexpected token: #","name":"Template render error","stack":"Template render error: (unknown path) [Line 10, Column 95]\n  unexpected token: #\n    at Object._prettifyError (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/lib.js:36:11)\n    at Template.render (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:524:21)\n    at Environment.renderString (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:362:17)\n    at Promise (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:66:9)\n    at Promise._execute (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/debuggability.js:303:9)\n    at Promise._resolveFromExecutor (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:483:18)\n    at new Promise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:79:10)\n    at Tag.render (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:64:10)\n    at Object.tagFilter [as onRenderEnd] (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/post.js:230:16)\n    at Promise.then.then.result (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/render.js:65:19)\n    at tryCatcher (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:651:20)\n    at tryOnImmediate (timers.js:624:5)\n    at processImmediate [as _immediateCallback] (timers.js:596:5)"},"msg":"Something's wrong. Maybe you can find the solution here: \u001b[4mhttp://hexo.io/docs/troubleshooting.html\u001b[24m","time":"2018-08-04T12:59:37.334Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15542,"level":20,"msg":"Database saved","time":"2018-08-04T12:59:37.523Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-08-04T13:07:49.988Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Working directory: \u001b[35m~/git/xcoding/\u001b[39m","time":"2018-08-04T13:07:49.991Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Config loaded: \u001b[35m~/git/xcoding/_config.yml\u001b[39m","time":"2018-08-04T13:07:50.096Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-08-04T13:07:50.114Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-08-04T13:07:50.116Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-08-04T13:07:50.137Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-08-04T13:07:50.140Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2018-08-04T13:07:50.144Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-search\u001b[39m","time":"2018-08-04T13:07:50.147Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-08-04T13:07:50.149Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-readingtime\u001b[39m","time":"2018-08-04T13:07:50.150Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-08-04T13:07:50.155Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-08-04T13:07:50.164Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-08-04T13:07:50.165Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-08-04T13:07:50.246Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/center-quote.js\u001b[39m","time":"2018-08-04T13:07:50.255Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/note.js\u001b[39m","time":"2018-08-04T13:07:50.256Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Script loaded: \u001b[35mthemes/hexo-theme-xoxo/scripts/tags/lazy-image.js\u001b[39m","time":"2018-08-04T13:07:50.256Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Loading database.","time":"2018-08-04T13:07:50.266Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":30,"msg":"Start processing","time":"2018-08-04T13:07:50.467Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mCNAME\u001b[39m","time":"2018-08-04T13:07:50.517Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2018-08-04T13:07:50.574Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mabout/index.html\u001b[39m","time":"2018-08-04T13:07:50.574Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35matom/index.html\u001b[39m","time":"2018-08-04T13:07:50.574Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msearch/index.html\u001b[39m","time":"2018-08-04T13:07:50.574Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mtags/index.html\u001b[39m","time":"2018-08-04T13:07:50.574Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/Git的错误error Failed connect to github.com443;解决办法.md\u001b[39m","time":"2018-08-04T13:07:50.696Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/在github上同步一个分支(fork).md\u001b[39m","time":"2018-08-04T13:07:50.696Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/GitHub/提交项目到GitHub，还原某个文件.md\u001b[39m","time":"2018-08-04T13:07:50.696Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js代码备忘.md\u001b[39m","time":"2018-08-04T13:07:50.696Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js插件.md\u001b[39m","time":"2018-08-04T13:07:50.696Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember.js适配器跨域请求问题.md\u001b[39m","time":"2018-08-04T13:07:50.697Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/Ember如何整合多说.md\u001b[39m","time":"2018-08-04T13:07:50.697Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/access token生成.md\u001b[39m","time":"2018-08-04T13:07:50.697Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/firebase数据访问权限设置.md\u001b[39m","time":"2018-08-04T13:07:50.697Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/refresh-current-routes-model-from-application-template.md\u001b[39m","time":"2018-08-04T13:07:50.697Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/动态加载Bootstrap.md\u001b[39m","time":"2018-08-04T13:07:50.698Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/升级Ember-cli.md\u001b[39m","time":"2018-08-04T13:07:50.698Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/发布项目到Firebase.md\u001b[39m","time":"2018-08-04T13:07:50.698Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/监听全局错误信息.md\u001b[39m","time":"2018-08-04T13:07:50.698Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/自定义IF判断.md\u001b[39m","time":"2018-08-04T13:07:50.698Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ember.js/获取当前URL.md\u001b[39m","time":"2018-08-04T13:07:50.698Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Java/eclipse、MyEclipse安装插件的万能方法.md\u001b[39m","time":"2018-08-04T13:07:50.699Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Java/maven引入本地JAR包.md\u001b[39m","time":"2018-08-04T13:07:50.699Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux 空间满问题分析.md\u001b[39m","time":"2018-08-04T13:07:50.699Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/Linux安装配置JDK.md\u001b[39m","time":"2018-08-04T13:07:50.699Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/ubuntu安装主题.md\u001b[39m","time":"2018-08-04T13:07:50.699Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/xxx is not in the sudoers file.This incident will be reported.的解决方法.md\u001b[39m","time":"2018-08-04T13:07:50.699Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Linux/增加用户并且授root权.md\u001b[39m","time":"2018-08-04T13:07:50.699Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/Mac无法开机.md\u001b[39m","time":"2018-08-04T13:07:50.699Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Mac/环境变量配置错误时临时解救办法.md\u001b[39m","time":"2018-08-04T13:07:50.700Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/express获取参数的方法.md\u001b[39m","time":"2018-08-04T13:07:50.700Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/NodeJS/创建npm插件.md\u001b[39m","time":"2018-08-04T13:07:50.700Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/Ruby/SSL证书问题.md\u001b[39m","time":"2018-08-04T13:07:50.700Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/README.md\u001b[39m","time":"2018-08-04T13:07:50.700Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/ember.js最常用的addon.md\u001b[39m","time":"2018-08-04T13:07:50.700Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/emberjs常见错误集.md\u001b[39m","time":"2018-08-04T13:07:50.700Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/fq/强制 Google.com 域名使用 HTTPS（SSL）.md\u001b[39m","time":"2018-08-04T13:07:50.700Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈.md\u001b[39m","time":"2018-08-04T13:07:50.701Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/架构/架构漫谈学习笔记.md\u001b[39m","time":"2018-08-04T13:07:50.701Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之一框架总说明.md\u001b[39m","time":"2018-08-04T13:07:50.701Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之七框架拦截器ActionServlet定义、配置.md\u001b[39m","time":"2018-08-04T13:07:50.701Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之三Action接口定义.md\u001b[39m","time":"2018-08-04T13:07:50.701Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之二action配置文件定义.md\u001b[39m","time":"2018-08-04T13:07:50.701Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之五配置文件解析器ActionMappingManager定义.md\u001b[39m","time":"2018-08-04T13:07:50.701Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之八使用框架模拟登陆.md\u001b[39m","time":"2018-08-04T13:07:50.702Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之六ActionManager定义.md\u001b[39m","time":"2018-08-04T13:07:50.702Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/自定义MVC框架/自定义MVC框架之四ActionMapping定义.md\u001b[39m","time":"2018-08-04T13:07:50.702Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/鸡汤/程序员的3年之痒改变的不止薪水.md\u001b[39m","time":"2018-08-04T13:07:50.703Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/js/xoxo.js\u001b[39m","time":"2018-08-04T13:07:50.706Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Theme config loaded.","time":"2018-08-04T13:07:50.718Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2018-08-04T13:07:50.721Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/common.less\u001b[39m","time":"2018-08-04T13:07:50.721Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/core.less\u001b[39m","time":"2018-08-04T13:07:50.722Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/highlight.less\u001b[39m","time":"2018-08-04T13:07:50.722Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/mixin.less\u001b[39m","time":"2018-08-04T13:07:50.723Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/normalize.css\u001b[39m","time":"2018-08-04T13:07:50.724Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/pure-min.css\u001b[39m","time":"2018-08-04T13:07:50.724Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/variables.less\u001b[39m","time":"2018-08-04T13:07:50.725Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css\u001b[39m","time":"2018-08-04T13:07:50.727Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.css.map\u001b[39m","time":"2018-08-04T13:07:50.727Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/xoxo.less\u001b[39m","time":"2018-08-04T13:07:50.730Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css\u001b[39m","time":"2018-08-04T13:07:50.731Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/css/xxoo.css.map\u001b[39m","time":"2018-08-04T13:07:50.732Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/image/favicon.ico\u001b[39m","time":"2018-08-04T13:07:50.732Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/第一章对象模型小结.md\u001b[39m","time":"2018-08-04T13:07:50.845Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/枚举（enumerables）.md\u001b[39m","time":"2018-08-04T13:07:50.845Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的扩展.md\u001b[39m","time":"2018-08-04T13:07:50.845Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/类的定义、初始化、继承.md\u001b[39m","time":"2018-08-04T13:07:50.845Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/绑定（bingding）.md\u001b[39m","time":"2018-08-04T13:07:50.845Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/观察者（observer）.md\u001b[39m","time":"2018-08-04T13:07:50.846Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/The Object Model/计算属性（compute properties）.md\u001b[39m","time":"2018-08-04T13:07:50.846Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/action触发变化.md\u001b[39m","time":"2018-08-04T13:07:50.846Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/包裹内容.md\u001b[39m","time":"2018-08-04T13:07:50.846Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/处理事件.md\u001b[39m","time":"2018-08-04T13:07:50.846Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/属性传递.md\u001b[39m","time":"2018-08-04T13:07:50.846Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件定义.md\u001b[39m","time":"2018-08-04T13:07:50.847Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/组件小节.md\u001b[39m","time":"2018-08-04T13:07:50.847Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/components/自定义包裹组件的HTML标签.md\u001b[39m","time":"2018-08-04T13:07:50.847Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/控制器（controller）.md\u001b[39m","time":"2018-08-04T13:07:50.847Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/controllers/管理controller之间的依赖关系.md\u001b[39m","time":"2018-08-04T13:07:50.847Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model的关联关系处理.md\u001b[39m","time":"2018-08-04T13:07:50.847Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/model简介.md\u001b[39m","time":"2018-08-04T13:07:50.847Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/元数据.md\u001b[39m","time":"2018-08-04T13:07:50.847Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/定义模型.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/新建、更新、删除记录.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/查询记录.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义序列化器.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/自定义适配器.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/models/设置记录到Store.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/loading、error子状态.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/异步路由.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/指定与路由关联的模型.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/查询参数.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/模板渲染.md\u001b[39m","time":"2018-08-04T13:07:50.848Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/终止与重试路由跳转.md\u001b[39m","time":"2018-08-04T13:07:50.849Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由重定向.md\u001b[39m","time":"2018-08-04T13:07:50.849Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/routing/路由定义.md\u001b[39m","time":"2018-08-04T13:07:50.849Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars基础.md\u001b[39m","time":"2018-08-04T13:07:50.849Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars属性绑定.md\u001b[39m","time":"2018-08-04T13:07:50.849Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars显示对象的键.md\u001b[39m","time":"2018-08-04T13:07:50.849Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars条件表达式.md\u001b[39m","time":"2018-08-04T13:07:50.849Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/handlebars遍历标签.md\u001b[39m","time":"2018-08-04T13:07:50.849Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{action}} 助手.md\u001b[39m","time":"2018-08-04T13:07:50.850Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/{{link-to}} 助手.md\u001b[39m","time":"2018-08-04T13:07:50.850Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/内置Helper.md\u001b[39m","time":"2018-08-04T13:07:50.850Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/工具类的助手.md\u001b[39m","time":"2018-08-04T13:07:50.850Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/番外篇，路由、模板的执行、渲染顺序.md\u001b[39m","time":"2018-08-04T13:07:50.850Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/第二章模板小结.md\u001b[39m","time":"2018-08-04T13:07:50.851Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/表单元素.md\u001b[39m","time":"2018-08-04T13:07:50.851Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/templetes/调试助手.md\u001b[39m","time":"2018-08-04T13:07:50.851Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/acceptanceTests.md\u001b[39m","time":"2018-08-04T13:07:50.851Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/introduction.md\u001b[39m","time":"2018-08-04T13:07:50.852Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingComponents.md\u001b[39m","time":"2018-08-04T13:07:50.852Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingControllers.md\u001b[39m","time":"2018-08-04T13:07:50.852Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingModels.md\u001b[39m","time":"2018-08-04T13:07:50.852Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/testingRoutes.md\u001b[39m","time":"2018-08-04T13:07:50.852Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35m_posts/ember-teach/testing/unitTestingBasics.md\u001b[39m","time":"2018-08-04T13:07:50.861Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/archive.ejs\u001b[39m","time":"2018-08-04T13:07:50.875Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/index.ejs\u001b[39m","time":"2018-08-04T13:07:50.875Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/layout.ejs\u001b[39m","time":"2018-08-04T13:07:50.875Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/page.ejs\u001b[39m","time":"2018-08-04T13:07:50.876Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/post.ejs\u001b[39m","time":"2018-08-04T13:07:50.876Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/tag.ejs\u001b[39m","time":"2018-08-04T13:07:50.876Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlanguages/default.yml\u001b[39m","time":"2018-08-04T13:07:50.877Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlanguages/en.yml\u001b[39m","time":"2018-08-04T13:07:50.877Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-CN.yml\u001b[39m","time":"2018-08-04T13:07:50.877Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlanguages/zh-TW.yml\u001b[39m","time":"2018-08-04T13:07:50.877Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35msource/image/ape-note1.jpg\u001b[39m","time":"2018-08-04T13:07:50.878Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/analytics.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive-post.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/archive.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/copyright.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/disqus.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/footer.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/head.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/js.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/nav.ejs\u001b[39m","time":"2018-08-04T13:07:50.912Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/prenext.ejs\u001b[39m","time":"2018-08-04T13:07:50.913Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/recent-posts.ejs\u001b[39m","time":"2018-08-04T13:07:50.913Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/scripts.ejs\u001b[39m","time":"2018-08-04T13:07:50.913Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/search.ejs\u001b[39m","time":"2018-08-04T13:07:50.913Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/share.ejs\u001b[39m","time":"2018-08-04T13:07:50.913Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Processed: \u001b[35mlayout/partials/toc.ejs\u001b[39m","time":"2018-08-04T13:07:50.913Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":60,"err":{"message":"(unknown path) [Line 10, Column 95]\n  unexpected token: #","name":"Template render error","stack":"Template render error: (unknown path) [Line 10, Column 95]\n  unexpected token: #\n    at Object._prettifyError (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/lib.js:36:11)\n    at Template.render (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:524:21)\n    at Environment.renderString (/Users/ubuntuvim/git/xcoding/node_modules/nunjucks/src/environment.js:362:17)\n    at Promise (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:66:9)\n    at Promise._execute (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/debuggability.js:303:9)\n    at Promise._resolveFromExecutor (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:483:18)\n    at new Promise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:79:10)\n    at Tag.render (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/extend/tag.js:64:10)\n    at Object.tagFilter [as onRenderEnd] (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/post.js:230:16)\n    at Promise.then.then.result (/Users/ubuntuvim/git/xcoding/node_modules/hexo/lib/hexo/render.js:65:19)\n    at tryCatcher (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues (/Users/ubuntuvim/git/xcoding/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:651:20)\n    at tryOnImmediate (timers.js:624:5)\n    at processImmediate [as _immediateCallback] (timers.js:596:5)"},"msg":"Something's wrong. Maybe you can find the solution here: \u001b[4mhttp://hexo.io/docs/troubleshooting.html\u001b[24m","time":"2018-08-04T13:07:52.239Z","v":0}
+{"name":"hexo","hostname":"ubuntuvim-2.local","pid":15946,"level":20,"msg":"Database saved","time":"2018-08-04T13:07:52.417Z","v":0}
