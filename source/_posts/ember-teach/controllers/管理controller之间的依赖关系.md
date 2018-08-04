@@ -3,7 +3,7 @@ title: 管理controller之间的依赖关系
 tag:
     - Emberjs
     - Ember-Teach
-	- Ember-Controller
+    - Ember-Controller
 ---
 
 在有路由嵌套的情况下，你可能需要在两个不同的`controller`之间通信。
