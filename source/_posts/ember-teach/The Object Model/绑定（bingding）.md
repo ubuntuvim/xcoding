@@ -3,6 +3,7 @@ title: 绑定（bingding）
 tag:
   - Emberjs
   - Ember-Teach
+  - Ember-Object
 ---
 
 正如其他的框架一样，`Ember`也有它特有的数据绑定方式，并且可以在任何一个对象上使用绑定。而然，数据绑定大多数情况都是使用在`Ember`框架本身，对于开发者最好还是使用计算属性更为简单方便。
