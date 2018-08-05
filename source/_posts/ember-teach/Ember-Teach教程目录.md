@@ -3,6 +3,7 @@ title: Ember-Teach教程目录
 tag:
 	- Emberjs
 	- Ember-Teach
+	- Emberjs教程目录
 ---
 
 # ember-teach
@@ -22,40 +23,40 @@ Ember Teach博客文章md文件。网址：[http://xcoding.tech/tags/Emberjs/](h
 
 ## 第一章 模板
 
-  1. handlebars基础
-  2. 内置helper（v2.7.0）
-  2. handlebars条件表达式
-  3. handlebars遍历标签
-  4. handlebars显示对象的键
-  5. handlebars属性绑定
-  6. {{link-to}} 助手
-  7. 番外篇，路由、模板的执行、渲染顺序
-  8. {{action}} 助手
-  9. 表单元素
-  10. 调试助手
-  11. 工具类的助手
-  12. 模板小结
+  1. http://xcoding.tech/2018/08/04/ember-teach/templetes/handlebars基础
+  2. http://xcoding.tech/2018/08/04/ember-teach/templetes/内置helper（v2.7.0）
+  2. http://xcoding.tech/2018/08/04/ember-teach/templetes/handlebars条件表达式
+  3. http://xcoding.tech/2018/08/04/ember-teach/templetes/handlebars遍历标签
+  4. http://xcoding.tech/2018/08/04/ember-teach/templetes/handlebars显示对象的键
+  5. http://xcoding.tech/2018/08/04/ember-teach/templetes/handlebars属性绑定
+  6. http://xcoding.tech/2018/08/04/ember-teach/templetes/link-to%20helper
+  7. http://xcoding.tech/2018/08/04/ember-teach/templetes/番外篇，路由、模板的执行、渲染顺序
+  8. http://xcoding.tech/2018/08/04/ember-teach/templetes/action%20helper
+  9. http://xcoding.tech/2018/08/04/ember-teach/templetes/表单元素
+  10. http://xcoding.tech/2018/08/04/ember-teach/templetes/调试助手
+  11. http://xcoding.tech/2018/08/04/ember-teach/templetes/工具类的助手
+  12. http://xcoding.tech/2018/08/04/ember-teach/templetes/模板小结
 
 ## 第三章 路由
 
-  1. 路由定义
-  2. 指定与路由关联的模型
-  3. 模板渲染
-  4. 路由重定向
-  5. 路由切换的防止和重试
-  6. loading、error子路由
-  7. 查询参数
-  8. 异步路由
+  1. http://xcoding.tech/2018/08/04/ember-teach/routing/路由定义
+  2. http://xcoding.tech/2018/08/04/ember-teach/routing/指定与路由关联的模型
+  3. http://xcoding.tech/2018/08/04/ember-teach/routing/模板渲染
+  4. http://xcoding.tech/2018/08/04/ember-teach/routing/路由重定向
+  5. http://xcoding.tech/2018/08/04/ember-teach/routing/路由切换的防止和重试
+  6. http://xcoding.tech/2018/08/04/ember-teach/routing/loading、error子路由
+  7. http://xcoding.tech/2018/08/04/ember-teach/routing/查询参数
+  8. http://xcoding.tech/2018/08/04/ember-teach/routing/异步路由
 
 ## 第四章 组件
 
-  1. 组件定义
-  2. 属性传递
-  3. 包裹内容
-  4. 自定义包裹组件的HTML标签
-  5. 处理事件
-  6. action触发变化
-  7. 组件小节
+  1. http://xcoding.tech/2018/08/04/ember-teach/components/组件定义
+  2. http://xcoding.tech/2018/08/04/ember-teach/components/属性传递
+  3. http://xcoding.tech/2018/08/04/ember-teach/components/包裹内容
+  4. http://xcoding.tech/2018/08/04/ember-teach/components/自定义包裹组件的HTML标签
+  5. http://xcoding.tech/2018/08/04/ember-teach/components/处理事件
+  6. http://xcoding.tech/2018/08/04/ember-teach/components/action触发变化
+  7. http://xcoding.tech/2018/08/04/ember-teach/components/组件小节
 
 ## 第五章 控制器
 

@@ -1,5 +1,5 @@
 ---
-title: action 助手
+title: action helper
 tag: 
 	- Emberjs
 	- Ember-Teach

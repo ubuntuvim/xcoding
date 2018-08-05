@@ -1,5 +1,5 @@
 ---
-title: link-to 助手 
+title: link-to helper
 tag: 
 	- Emberjs
 	- Ember-Teach
