@@ -52,7 +52,7 @@ export default Ember.Component.extend({
 ```
 页面加载之后查看页面的源代码。如下：
 
-![结果HTML代码](/content/images/2016/04/126.png)
+![](http://static.oschina.net/uploads/img/201510/12021703_xHgu.png)
 
 可以看到组件`customizing-component-element`的内容确实是被包裹在`nav`标签之中，如果在组件类中没有使用属性`tagName`指定包裹的HTML标签，默认是`div`，你可以把组件类中`tagName`属性删除之后再查看页面的HTML源码代码。
 
@@ -227,7 +227,7 @@ export default Ember.Component.extend({
 ```
 页面重新加载之后得到如下结果：
 
-![渲染后的HTML代码](/content/images/2016/04/127-1.png)
+![](http://static.oschina.net/uploads/img/201510/12021703_cRJd.png)
 
 比较简单，对于渲染之后的结果我就不过多解释了，请参考`classNameBindings`属性理解。
 

@@ -45,7 +45,7 @@ console.log('fullName = ' + person.get('fullName'));
 
 `fullName`是依赖`firstName`和`lastName`的，调用`set()`方法改变了`firstName`的值，自然的导致`fullName`的值也被改变了，`fullName`变化了就触发观察者。从执行的结果就可以看出来；
 
-![运行结果图](/content/images/2016/03/10.png)
+![运行结果图](http://static.oschina.net/uploads/img/201509/08215431_TNgu.png)
 
 `Ember`还为开发者提供了另一种使用观察者的方式。这种方式使你可以在类定义之外为某个计算属性增加一个观察者。
 
@@ -102,7 +102,7 @@ person.set('firstName', '[firstName]');
 person.set('lastName', '[lastName]');
 ```
 
-![run result](/content/images/2016/03/11.png)
+![run result](http://static.oschina.net/uploads/img/201509/08215431_5Zli.png)
 
 显然上述代码执行了两次`set()`所以观察者也会执行2次，但是如果开发中需要设置只能执行一次观察出呢？Ember提供了一个`once()`方法，这个方法会在下一次循环所有绑定属性都同步的时候执行。
 
@@ -143,7 +143,7 @@ person.set('firstName', '[firstName]');
 person.set('lastName', '[lastName]');
 ```
 
-![run result](/content/images/2016/03/12.png)
+![run result](http://static.oschina.net/uploads/img/201509/08215431_xi6t.png)
 
 ### 观察者与对象初始化
 

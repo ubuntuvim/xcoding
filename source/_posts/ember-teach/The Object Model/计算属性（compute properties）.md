@@ -106,7 +106,7 @@ console.log(jack.get('firstName'));
 console.log(jack.get('lastName'));
 ```
 
-![运行结果](/content/images/2016/03/7.png)
+![运行结果](http://static.oschina.net/uploads/img/201509/08100319_16q9.png)
 
 ### 计算属性值的统计
 
@@ -200,7 +200,7 @@ var count = todosController.get('remaining');
 console.log('5,>> Not complete lenght is ' + count);  //  output 1
 ```
 
-![代码演示的结果](/content/images/2016/03/8.png)
+![代码演示的结果](http://static.oschina.net/uploads/img/201509/08100320_d33w.png)
 
 上述的情况中，我们对数组对象的是关注点是在对象的属性上，但是实际中往往很多情况我们并不关系对象内的属性是否变化了，而是把数组元素作为一个整体对象处理（比如数组元素个数的变化）。相比上述的代码下面的代码检测的是数组对象元素的变化，而不是对象的`isDone`属性的变化。在这种情况你可以看看下面例子，在例子中使用键`[]`代替键`@each`。从键的变化也可以看出他们的不同之处。
 
@@ -239,7 +239,7 @@ wl.set('index', index);
 console.log('Get '+wl.get('indexOfSelectedTodo').toString()+' by index ' + index);
 ```
 
-![代码演示的结果](/content/images/2016/03/9.png)
+![代码演示的结果](http://static.oschina.net/uploads/img/201509/08100320_HZ9I.png)
 
 
 `Ember.computed`这个组件中有很多使用键`[]`实现的方法。当你想创建一个计算属性是数组的时候特别适用。你可以使用`Ember.computed.map`来构建你的计算属性。

@@ -34,7 +34,7 @@ ember install emberfire
 * 配置`config/environment.js`
 修改第八行`firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/'`。这个地址是你注册用户时候得到的。你可以从[这里](https://www.firebase.com/account/#/)查看你的地址。比如下图所示位置
 
-![截图](/content/images/2016/04/134.png)
+![截图](http://static.oschina.net/uploads/img/201510/17021237_VucE.png)
 
 * 再在`config/enviroment.js`的`APP:{}`(大概第20行)后面新增如下代码
 ```js
@@ -212,11 +212,11 @@ export default Ember.Route.extend({
 ```
 页面加载之后可以看到获取到的数据。
 
-![加载得到的数据](/content/images/2016/04/135.png)
+![加载得到的数据](http://static.oschina.net/uploads/img/201510/17022136_51O7.png)
 
 下面是我的firebase上的部分数据截图。
 
-![firebase数据](/content/images/2016/04/136.png)
+![firebase数据](http://static.oschina.net/uploads/img/201510/17022136_7wt1.png)
 
 可以看到成功获取到`id`为`-JzySrmbivaSSFG6WwOk`的数据。更多关于数据的操作在后面会详细介绍。
 
@@ -279,7 +279,7 @@ App.LineItem = DS.Model.extend({
 
 应用第一次从`store`获取一个记录时，`store`会发现本地缓存并不存在一份被请求的记录的副本，这时会向适配器发请求。适配器将从持久层去获取记录；通常情况下，持久层都是一个HTTP服务，通过该服务可以获取到记录的一个`JSON`表示。
 
-![架构图1](/content/images/2016/04/137.png)
+![架构图1](http://static.oschina.net/uploads/img/201510/17022136_qwjL.png)
 
 如上图所示，适配器有时不能立即返回请求的记录。这时适配器必须向服务器发起一个异步的请求，当请求完成加载后，才能通过返回的数据创建的记录。
 
@@ -287,11 +287,11 @@ App.LineItem = DS.Model.extend({
 一旦发给服务器端的请求返回被请求记录的JSON数据时，适配器会履行承诺，并将`JSON`传递给`store`。
 `store`这时就获取到了`JSON`，并使用`JSON`数据完成记录的初始化，并使用新加载的记录来履行已经返回到应用的承诺。
 
-![架构图2](/content/images/2016/04/138.png)
+![架构图2](http://static.oschina.net/uploads/img/201510/17022136_iwjw.png)
 
 下面将介绍一下当`store`已经缓存了请求的记录时会发生什么。
 
-![架构图3](/content/images/2016/04/139.png)
+![架构图3](http://static.oschina.net/uploads/img/201510/17022136_Xy17.png)
 
 在这种情形下，`store`已经缓存了请求的记录，不过它也将返回一个承诺，不同的是，这个承诺将会立即使用缓存的记录来履行。此时，由于`store`已经有了一份拷贝，所以不需要向适配器去请求（没有与服务器发生交互）。
 

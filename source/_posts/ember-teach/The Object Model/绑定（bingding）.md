@@ -37,7 +37,7 @@ hasband.set('householdIncome', 10);
 console.log('wife householdIncome = ' + wife.get('householdIncome'));
 ```
 
-![run result](/content/images/2016/03/13.png)
+![run result](http://static.oschina.net/uploads/img/201509/09095720_nTt7.png)
 
 需要注意的是绑定并不会立刻更新对应的值，`Ember`会等待直到程序代码完成运行完成并且是在同步改变之前，所以你可以多次改变计算属性的值。由于绑定是很短暂的所以也不需要担心开销问题。
 
@@ -67,7 +67,7 @@ userComponent.set('fullName', "ubuntuvim");
 console.log('user >>> ' + user.get('fullName'));
 ```
 
-![run result](/content/images/2016/03/14.png)
+![run result](http://static.oschina.net/uploads/img/201509/09095720_L5ho.png)
 
 关于数据绑定的知识点不多，相对来说不是重点，毕竟对象之间的关联关系是越少、越简单越好。关联关系多了反而难以维护。
 <br>

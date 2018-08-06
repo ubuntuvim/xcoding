@@ -88,7 +88,7 @@ export default Ember.Route.extend({
 ```
 如果你的代码没有编写错误那么也会得到如下结果：
 
-![结果](/content/images/2016/04/131.png)
+![结果](http://static.oschina.net/uploads/img/201510/15003412_jEnj.png)
 
 **Welcome to Ember**是主模板的信息，你可以在`application.hbs`中删除，但是记得不要删除`{{outlet}}`，否则什么信息也不显示。
 
@@ -135,9 +135,9 @@ export default Ember.Controller.extend({
 
 页面加载之后结果如下，首先是不显示`body`内容，点击按钮“Show body”则显示内容，并且按钮变为“hide body”。然后在点击这个按钮则不显示`body`内容。
 
-![隐藏](/content/images/2016/04/132.png)
+![隐藏](http://static.oschina.net/uploads/img/201510/15003412_4mzn.png)
 
-![展开](/content/images/2016/04/133.png)
+![展开](http://static.oschina.net/uploads/img/201510/15003412_atzS.png)
 
 到此`controller`的职责你应该大致了解了，其主要的作用是逻辑的判断、处理，比如这里例子中判断`body`内容的显示与否，其实你也可以把`controller`类中的处理代码放在`route`类中也可以实现这个效果，但是要作为`model`的属性返回（把`isExpanded`当做`model`的属性处理），请读者自己动手试试，但是把逻辑放到`route`又会使得`route`变得“不专一”了，`route`的主要职责是初始化数据的。我想这也是Ember还留着`controller`的原因之一吧！！
 

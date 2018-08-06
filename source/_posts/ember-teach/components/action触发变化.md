@@ -113,13 +113,13 @@ export default Ember.Component.extend({
 {{user-profile}}
 ```
 
-![结果](/content/images/2016/04/128.png)
+![结果](http://static.oschina.net/uploads/img/201510/14010229_OrI7.png)
 
 点击这个`button`，会触发事件。弹出对话框。再点击“确认”后执行方法`userDidDeleteAccount`，可以看到浏览器控制台输出了**userDidDeleteAccount⋯**，未点击“确认”前或者点击“取消”不会输出这个信息，说明不执行这个方法`userDidDeleteAccount`。
 
-![结果截图](/content/images/2016/04/129.png)
+![结果截图](http://static.oschina.net/uploads/img/201510/14010230_bkQw.png)
 
-![结果截图](/content/images/2016/04/130.png)
+![结果截图](http://static.oschina.net/uploads/img/201510/14010230_Cc6W.png)
 
 像普通属性，`actions`可以组件的一个属性，唯一的区别是，属性设置为一个函数，它知道如何触发的行为。
 

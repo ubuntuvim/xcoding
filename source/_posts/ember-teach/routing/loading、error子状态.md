@@ -16,7 +16,7 @@ Router.map(function() {
 ```
 对于上述的路由设置[Ember](http://emberjs.com/)会生成如下的路由列表：
 
-![路由映射图](/content/images/2016/03/64.png)
+![路由映射图](http://static.oschina.net/uploads/space/2015/0928/010633_x4BH_565401.png)
 
 每个路由都会自动生成一个`loading`、`error`路由，下面我将一一演示这两个路由的作用。
 图片前面`loading`、`error`路由对应的`application`路由。`posts_loading`和`posts_error`对应的是`posts`路由。
@@ -82,7 +82,7 @@ export default Ember.Route.extend({
 ```
 页面刷新后会弹出一个提示框，先不点击“确定”。打开浏览器的“开发者 -> 开发者工具”，切换到Network标签下。找到“pulls”这个请求，点击它。
 
-![result](/content/images/2016/03/69.png)
+![result](http://static.oschina.net/uploads/space/2015/0928/012646_7ovz_565401.png)
 
 从图中可以看到此时`model`回调并没有返回。此时响应的内容是空的，说明`loading`事件实在`model`回调返回之前执行了。
 
@@ -121,7 +121,7 @@ export default Ember.Route.extend({
 ```
 注意`var e = parseInt(value);`这句代码，由于`value`没有定义所以应该会报错。那么此时页面会显示什么呢？？
 
-![result](/content/images/2016/03/70.png)
+![result](/http://static.oschina.net/uploads/space/2015/0928/012833_n2HG_565401.png)
 
 如果你的演示程序没有其他问题那么你也会得到上图的结果。但是如果没有定义这个模板，那么界面上将是什么都不显示。
 
@@ -178,7 +178,7 @@ export default Ember.Route.extend({
 注意`getJSON`方法里的URL，我在URL后面随机加了一些字符，目的是让这个URL不存在。此时请求应该会找不到这个地址`error`的响应码应该是404。然后直接跳转到`form`这个路由上。
 运行[http://localhost:4200/posts](http://localhost:4200/posts)之后，浏览器控制台打印信息如下：
 
-![result](/content/images/2016/03/72.png)
+![result](http://static.oschina.net/uploads/space/2015/0928/012833_n2HG_565401.png)
 
 页面也会跳转到`form`。
 
