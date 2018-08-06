@@ -28,7 +28,7 @@ stylesheets:
 
 # scripts loaded in the end of the body
 scripts:
-#- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
+- /js/zepto.min.js
 #- /js/xoxo.js
 
 
