@@ -48,6 +48,13 @@ Unhandled rejection Template render error: (unknown path) [Line 10, Column 95]
     at processImmediate [as _immediateCallback] (timers.js:596:5)
 ```
 
+出现上述原因都是因为你的Markdown文件中有标签与`nunjucks`模板引擎的标签冲突了，比如`{{}}`，`{% raw %}{#{% endraw %}`， `{% raw %}{%{% endraw %}`，这些标签都是模板引擎的，如果Markdown文件中有这些标签，那么在解析的是就会把Markdown中的标签动态解析了。通常情况下是不允许的。
+
+有关模板引擎nunjucks更多相关信息请转到[https://mozilla.github.io/nunjucks/cn/getting-started.html](https://mozilla.github.io/nunjucks/cn/getting-started.html)
+
+在hoxe的官网上有很多[相关的提问](https://github.com/hexojs/hexo/issues?utf8=%E2%9C%93&q=unexpected+token)，上面也提供了解决方案（本文的方案1），但是都不太好。
+
+
 ## 处理方案1
 特别是你执行`hexo g`命令的时候就会提示Markdown文件解析错误。
 网上很多方法都是使用如下标签处理。
@@ -88,7 +95,7 @@ var TOKEN_STRING = 'string';
 var VARIABLE_START = '{$';
 var VARIABLE_END = '$}';
 ```
-这样模板解析的时候就不会跟你的Markdown内容冲突了，而已是对所有Markdown文件都有效的。
+把模板引擎的占位符修改为其他字符之后，这样模板解析的时候就不会跟你的Markdown内容冲突了，而且是对所有Markdown文件都有效的。
 
 但是需要注意的时候，如果你在项目下执行`npm install`更新`nunjucks`模板，那么你修改的`node_modules/nunjucks/src/lexer.js`会被还原，需要重新修改一遍。
 但是相对于每个Markdown都修改还是有很大好处的。
@@ -104,28 +111,28 @@ var VARIABLE_END = '$}';
 node_modules/hexo-generator-search/templates/search.xml
 ```
 
-把文件内容里的`{`改为`{{{`即可，这个修改是根据你前面的`nunjucks`修改而定的。
+把文件内容里的`{% raw %}{{% endraw %}`改为`{% raw %}{${% endraw %}`即可，这个修改是根据你前面的`nunjucks`修改而定的。
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <search> 
   {% if posts %}
     {% for post in posts.toArray() %}
     <entry>
-      <title>{{{ post.title }}}</title>
-      <link href="{{{ (url + post.path) | uriencode }}}"/>
-      <url>{{{ (url + post.path) | uriencode }}}</url>
-      <content type="html"><![CDATA[{{{ post.content | noControlChars | safe }}}]]></content>
+      <title>{$ post.title $}</title>
+      <link href="{$ (url + post.path) | uriencode $}"/>
+      <url>{$ (url + post.path) | uriencode $}</url>
+      <content type="html"><![CDATA[{$ post.content | noControlChars | safe $}]]></content>
       {% if post.categories and post.categories.length>0 %}
       <categories>
           {% for cate in post.categories.toArray() %}
-          <category> {{{ cate.name }}} </category>
+          <category> {$ cate.name $} </category>
           {% endfor %}
       </categories>
       {% endif %}
       {% if post.tags and post.tags.length>0 %}
         <tags>
             {% for tag in post.tags.toArray() %}
-            <tag> {{{ tag.name }}} </tag>
+            <tag> {$ tag.name $} </tag>
             {% endfor %}
         </tags>
       {% endif %}
@@ -135,10 +142,10 @@ node_modules/hexo-generator-search/templates/search.xml
   {% if pages %}
     {% for page in pages.toArray() %}
     <entry>
-      <title>{{{ page.title }}}</title>
-      <link href="{{{ (url + page.path) | uriencode }}}"/>
-      <url>{{{ (url + page.path) | uriencode }}}</url>
-      <content type="html"><![CDATA[{{{ page.content | noControlChars | safe }}}]]></content>
+      <title>{$ page.title $}</title>
+      <link href="{$ (url + page.path) | uriencode $}"/>
+      <url>{$ (url + page.path) | uriencode $}</url>
+      <content type="html"><![CDATA[{$ page.content | noControlChars | safe $}]]></content>
     </entry>
     {% endfor %}
   {% endif %}
@@ -150,7 +157,7 @@ node_modules/hexo-generator-search/templates/search.xml
 
 ## 方案3
 
-提供一个一劳永逸的方案，修改项目的`package.json`文件，把`hexo-generator-feed`或者`hexo-generator-search`改为我重新处理过的插件即可。
+提供一个一劳永逸的方案，修改项目的`package.json`文件，把`nunjucks`、`hexo-generator-feed`、`hexo-generator-search`改为我重新处理过的插件即可。
 
 ```json
 {
@@ -162,11 +169,12 @@ node_modules/hexo-generator-search/templates/search.xml
   },
   "dependencies": {
     //…… 其他省略
-    "hexo-generator-feed-cst": "^1.2.2",
-    "hexo-generator-search-cst": "^2.2.5",
+    "nunjucks-cst": "^0.1.0",
+    "hexo-generator-feed-cst": "^0.1.0",
+    "hexo-generator-search-cst": "^0.1.0",
     //…… 其他省略
   }
 }
 ```
 
-修改完`package.json`之后执行命令`npm install`重新安装依赖。安装完毕后重新启动hexo。这两个插件相关的配置都不需要做任何修改。
+修改完`package.json`之后执行命令`npm install`重新安装依赖。安装完毕后重新启动hexo。这两个插件相关的配置都不需要做任何修改，也不用担心查询更新后被覆盖。
