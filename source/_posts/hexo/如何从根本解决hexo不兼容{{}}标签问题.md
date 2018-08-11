@@ -157,7 +157,7 @@ node_modules/hexo-generator-search/templates/search.xml
 
 ## 方案3
 
-提供一个一劳永逸的方案，修改项目的`package.json`文件，把`nunjucks`、`hexo-generator-feed`、`hexo-generator-search`改为我重新处理过的插件即可。
+提供一个一劳永逸的方案，修改项目的`package.json`文件，把`hexo-generator-feed`、`hexo-generator-search`改为我重新处理过的插件即可。
 
 ```json
 {
@@ -169,7 +169,6 @@ node_modules/hexo-generator-search/templates/search.xml
   },
   "dependencies": {
     //…… 其他省略
-    "nunjucks-cst": "^0.1.0",
     "hexo-generator-feed-cst": "^0.1.0",
     "hexo-generator-search-cst": "^0.1.0",
     //…… 其他省略

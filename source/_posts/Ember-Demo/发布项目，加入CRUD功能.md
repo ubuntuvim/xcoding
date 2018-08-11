@@ -57,17 +57,24 @@ firebase init
 修改项目的library列表页面，增加删除和修改功能。
 ```html
 <!-- app/templates/libraries/index.hbs -->
-<h2>List</h2>
+
+## List
+
 <div class="row">
   {{#each model as |library|}}
     <div class="col-md-4">
       <div class="panel panel-default library-item">
           <div class="panel-heading">
-              <h3 class="panel-title">{{library.name}}</h3>
+
+### {{library.name}}
+
           </div>
           <div class="panel-body">
-              <p>Address: {{library.address}}</p>
-              <p>Phone: {{library.phone}}</p>
+
+Address: {{library.address}}
+
+Phone: {{library.phone}}
+
           </div>
           <div class="panel-footer text-right">
               {{#link-to 'libraries.edit' library.id class='btn btn-success btn-xs'}}Edit{{/link-to}}
@@ -78,10 +85,9 @@ firebase init
   {{/each}}
 </div>
 ```
-相比原来的代码增加了一个连接和一个按钮，分别用于编辑和删除library信息。相对于需要增加一个路由`libraries/edit`和一个处理的动作`{% raw %}{{action 'deleteLibrary'}}{% endraw %}`。
+相比原来的代码增加了一个连接和一个按钮，分别用于编辑和删除library信息。相对于需要增加一个路由`libraries/edit`和一个处理的动作`{{action 'deleteLibrary'}}`。
 如果此时运行[http://localhost:4200/libraries](http://localhost:4200/libraries)会出现错误，因为还没定义路由`libraries/edit`和`action`。别急，先一步步来，下面先增加一些css样式。
-
-```css
+```
 # app/styles/app.scss
 @import 'bootstrap';
 
@@ -131,7 +137,6 @@ Router.map(function() {
 
 export default Router;
 ```
-
 注意`this.route('edit', { path: '/:library_id/edit' });`这行代码的设置。与普通的路由稍有不同这里增加了一个参数，并且参数内使用`path`设定路由渲染之后`edit`会被`/:library_id/edit`替换。
 编译、渲染之后的URL格式为`http://example.com/libraries/1234/edit`其中`:library_id`这是一个动态段，这个URL例子中动态段`library_id`的值就是`1234`，并且可以在路由类中获取这个动态段的值。
 更多有关动态段的介绍请看[Ember.js 入门指南之十三{{link-to}} 助手](http://blog.ddlisting.com/2016/03/22/ember-js-ru-men-zhi-nan-zhi-shi-san-link-to/)或者[Dynamic Segments](https://guides.emberjs.com/v2.5.0/routing/defining-your-routes/#toc_dynamic-segments)。
@@ -144,7 +149,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
 
   model(params) {
-    // 获取动态段library_id的值
+    // 获取动态段library_id的值 
     return this.store.findRecord('library', params.library_id);
   },
 
@@ -177,7 +182,7 @@ Ember会自动根据URL的格式解析得到。并且可以在路由类中获取
 ```html
 <!-- app/templates/libraries/edit.hbs -->
 
-<h2>Edit Library</h2>
+## Edit Library
 
 <div class="form-horizontal">
     <div class="form-group">
@@ -207,19 +212,19 @@ Ember会自动根据URL的格式解析得到。并且可以在路由类中获取
 ```
 等待项目重启完成，进入到修改界面，任意修改界面上的数据，不点击保存然后任意点击其他链接会弹出提示，询问你是否确认离开页面。操作步骤如下截图。
 
-![library主页](http://blog.ddlisting.com/content/images/2016/04/162-2.png)
+![library主页](/image/blog-image/162.png)
 
-![library修改页面](http://blog.ddlisting.com/content/images/2016/04/163.png)
+![library修改页面](/image/blog-image/1.jpeg)
 
-**注意**：看浏览器的URL。首页模板代码`{% raw %}{{#link-to 'libraries.edit' library.id class='btn btn-success btn-xs'}}Edit{{/link-to}}{% endraw %}`中的路由`libraries.edit`渲染之后会得到形如`libraries/xxx/edit`的URL，其中`xxx`就是动态段的值。
+**注意**：看浏览器的URL。首页模板代码`{{#link-to 'libraries.edit' library.id class='btn btn-success btn-xs'}}Edit{{/link-to}}`中的路由`libraries.edit`渲染之后会得到形如`libraries/xxx/edit`的URL，其中`xxx`就是动态段的值。
 
-![修改name的值，然后点击菜单的Home](http://blog.ddlisting.com/content/images/2016/04/164.png)
+![修改name的值，然后点击菜单的Home](/image/blog-image/164.png)
 
-![library未保存离开页面提示](http://blog.ddlisting.com/content/images/2016/04/165.png)
+![library未保存离开页面提示](/image/blog-image/165.png)
 
 弹出提示信息。如果点击取消会停留在当前页面，如果选中确定会跳转到首页（因为我点击的是菜单的Home）。
 
-![修改后点击保存](http://blog.ddlisting.com/content/images/2016/04/166.png)
+![修改后点击保存](/image/blog-image/166.png)
 
 成功保存了修改的内容。到此实现了修改功能。
 
@@ -250,7 +255,7 @@ export default Ember.Route.extend({
 模板中是这样调用删除方法的`<button class="btn btn-danger btn-xs" {{action 'deleteLibrary' library}}>Delete</button>`，看到参数`library`了吧，这个参数就是一个`library`模型对象。
 可以直接调用方法`destroyRecord()`实现删除数据。
 
-![点击删除按钮](http://blog.ddlisting.com/content/images/2016/04/167.png)
+![点击删除按钮](/image/blog-image/167.png)
 
 选中确定之后删除就会立刻删除，列表上的数据也会动态更新。
 
@@ -279,7 +284,7 @@ this.route('admin', function() {
 ```
 省略其他内容，仅仅列出修改部分。
 
-#### 复制`admin/contact.hbs`的内容到`admin/contact/index.hbs`，然后空`admin/contact.hbs`再在文件内添加`{% raw %}{{outlet}}{% endraw %}`
+#### 复制`admin/contact.hbs`的内容到`admin/contact/index.hbs`，然后空`admin/contact.hbs`再在文件内添加`{{outlet}}`
 
 `admin/contact.hbs`
 ```html
@@ -291,7 +296,7 @@ this.route('admin', function() {
 ```html
 {{! app/templates/admin/contact/index.hbs}}
 
-<h1>Contacts</h1>
+# Contacts
 
 <table class="table table-bordered table-striped">
     <thead>
@@ -406,5 +411,4 @@ export default Ember.Route.extend({
 
 运行结果不再截图列出，请读者自行试验。
 
-<br>
 为了照顾懒人我把完整的代码放在[GitHub](https://github.com/ubuntuvim/library-app)上，可以拿来做参照。博文经过多次修改，博文上的代码与github代码可能有出入，不过影响不大！如果你觉得博文对你有点用，请在github项目上给我点个`star`吧。您的肯定对我来说是最大的动力！！

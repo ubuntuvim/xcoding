@@ -102,7 +102,7 @@ ember server
 
 等待启动完毕后，打开浏览器执行[http://localhost:4200](http://localhost:4200)，如果能在页面上看到**Welcome to Ember**说明项目创建成功。并且可以在浏览器控制台上看到如下图的日志信息：
 
-![日志信息](/content/images/2016/03/55-2.png)
+![日志信息](/image/blog-image/55.png)
 
 ## 开启调试模式
 
@@ -121,7 +121,7 @@ if (environment === 'development') {
 ```
 重启项目（按`Ctrl+C`终止在执行`ember servere`），必须重启才能其效果，可以在浏览器控制台看到了很多的日志信息。比如下图
 
-![开启日志模式截图](/content/images/2016/03/56-1.png)
+![开启日志模式截图](/image/blog-image/56.png)
 
 
 ## 添加Bootstrap和Sass到项目中
@@ -210,7 +210,7 @@ body {
 ```
 等待项目重启完成，执行[http://localhost:4200/about](http://localhost:4200/about)可以看到刚刚在模板`about.hbs`中增加的信息，如下截图。
 
-![结果截图](http://)
+![结果截图](/image/blog-image/81.png)
 
 但是"About Page"怎么会显示在导航条下方呢？好像并没有指定啊，也没有想前面那样使用表达式`{% raw %}{{partial}}{% endraw %}`调用模板，有关这个内容的介绍请看[Ember.js 入门指南之十四番外篇，路由、模板的执行、渲染顺序](http://blog.ddlisting.com/2016/03/22/ember-js-ru-men-zhi-nan-zhi-shi-si-fan-wai-pian-lu-you-mo-ban-de-zhi-xing-xuan-ran-shun-xu/)，还记得在主模板`application.hbs`中的`{% raw %}{{outlet}}{% endraw %}`吗？除了`application.hbs`之外的所有模板都是子模板，子模板会自动渲染到父模板的`{% raw %}{{outlet}}{% endraw %}`上。但是是如何触发显示的呢？很简单，因为我们访问了`about`这个路由，路由会自动根据名字查找到同名的模板并显示（Ember默认规则）。
 
@@ -229,7 +229,7 @@ body {
 ```
 等待项目重启完成，可以看到导航栏上多了一项，并且点击“Home”和“About”看到显示不同的内容。效果如下图：
 
-![效果图](/content/images/2016/03/81-1.png)
+![效果图](/image/blog-image/81.png)
 
 到此教程第一篇介绍完毕，如果你看过官方参考文件或者是看过[ember teach](http://blog.ddlisting.com/)上的教程理解起来应该是没难度的！多一份耐心就多一份收获。
 

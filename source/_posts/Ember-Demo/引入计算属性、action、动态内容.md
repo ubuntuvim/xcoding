@@ -46,7 +46,7 @@ tag:
 ```
 等待项目重启完成，可以在首页看到如下效果页面：
 
-![首页效果截图](/content/images/2016/03/90.png)
+![首页效果截图](/image/blog-image/90.png)
 
 ## 计算属性
 
@@ -124,25 +124,25 @@ export default Ember.Controller.extend({
 下面我们做一个非常有趣的小测试。<br>
 等待页面刷新完毕，打开浏览器控制台，选择标签`Ember`，在选择左侧的`/# Route`，找到`Controller`中名为`index`的，点击`$E`（如下图红色框出位置），然后再回到`Console`标签下。
 
-![控制台](/content/images/2016/04/91.png)
+![控制台](/image/blog-image/91.png)
 
 点击`$E`在`Console`下可以看到类似`Ember Inspector ($E):  Class {__ember1459491972481: "ember470", __ember_meta__: Meta}`的信息。然后在控制台命令输入行输入`$E.get('actualEmailAddress')`代码的作用是获取计算属性的值。可以看到触发了计算属性方法，打印了日志，如下截图所示：
 
-![计算属性执行日志](/content/images/2016/04/92.png)
+![计算属性执行日志](/image/blog-image/92.png)
 
 然后再次执行`$E.get('actualEmailAddress')`计算属性方法不会被执行，因为计算属性检测的属性`emailAddress`值并没有发生变化，没有发生变化，计算属性方法不会被执行，手动修改输入框的值，结果可以看到计算属性方法再次执行了，如下图所示：
 
-![修改输入框的值执行结果截图](/content/images/2016/04/94.png)
+![修改输入框的值执行结果截图](/image/blog-image/94.png)
 
 然后在控制台命令行在输入`$E.set('emailAddress', 'example@example.com')`这句代码意思是修改输入框的值。可以看到观察器方法执行了，因为观察器检测到被检测的属性`emailAddress`发生了变化，只要被检测的属性发生了变化就会自动执行。可以看到如下截图的日志信息：
 
-![观察器执行结果](/content/images/2016/04/93.png)
+![观察器执行结果](/image/blog-image/93.png)
 
 并且可以看到邮箱号码输入框的值被置为`example@example.com`。然后在控制台命令行再次输入`$E.set('emailAddress', 'example@example.com')`观察器方法并不会执行了，即使你输入多次也不会执行，因为你输入的值`example@example.com`始终没有变化。如果你稍微修改输入的值那么可以看到观察器又执行了。比如输入`$E.set('emailAddress', 'test')`，可以看到控制台再次打印了日志信息。
 
 测试观察器还有另外一种简单的方法，就是直接在邮件输入框直接输入某些内容。可以看到控制台会随着这输入的内容变化而变化，感觉就像是在检测键盘事件一样。下图是我输入`12@qq.com`控制台打印的日志信息：
 
-![输入12@qq.com日志信息](/content/images/2016/04/95.png)
+![输入12@qq.com日志信息](/image/blog-image/95.png)
 
 到此，我想你对计算属性和观察者应该有了一定的认识了！！
 
@@ -225,7 +225,7 @@ export default Ember.Controller.extend({
 ```
 仅仅修改了模板中`<button>`标签，其他不变，保存等待项目重启，此时在界面输入正确的邮箱然后点击按钮你在浏览器的控制台看到如下错误信息：
 
-![错误信息](/content/images/2016/04/96.png)
+![错误信息](/image/blog-image/96.png)
 
 能看到错误信息说明你的项目是正确的，因为我们并没有定义`saveInvitation`，在控制器`index`中增加这个Action的定义。
 ```js
@@ -259,7 +259,7 @@ export default Ember.Controller.extend({
 **注意**：代码`alert`方法中并没有使用单引号或者是双引号囊括字符串“Saving of the following email address is in propgress: ${this.get('emailAddress')}”而是使用“\`”，这两者肯定是有区别的，前者直接把`${this.get('emailAddress')}`当着字符串，后者会把`${this.get('emailAddress')}`当着表达式，从运行结果就可以看出来了。<br>
 输入正确邮箱后点击按钮会得到如下截图结果：
 
-![结果](/content/images/2016/04/97.png)
+![结果](/image/blog-image/97.png)
 
 直接弹出提示信息这种方式太暴力了，改一种提示方式，修改模板`index.hbs`，然后在注释掉控制器`index.js`中的`alert`语句。
 ```html
@@ -296,7 +296,7 @@ export default Ember.Controller.extend({
 
 等待项目重启完成，再次测试。输入正确格式的邮箱，点击按钮提交可以看到如下的结果：
 
-![友好提示信息](/content/images/2016/04/98.png)
+![友好提示信息](/image/blog-image/98.png)
 
 主要看绿色提示信息，相对于前一种直接弹框提示方式友好多了！！！
 
