@@ -33,5 +33,5 @@ tag:
 
 **说明：本教程是基于Ember2.4而作，请注意与你自己的Ember.js版本区别，如果出现不兼容问题请自行升级项目。**
 
-升级教程：[http://blog.ddlisting.com/2015/11/24/sheng-ji-emberdao-2-2-0ban-ben/](http://blog.ddlisting.com/2015/11/24/sheng-ji-emberdao-2-2-0ban-ben/)
+升级教程：[http://xcoding.tech/2016/09/12/Ember.js/%E5%8D%87%E7%BA%A7Ember-cli/](http://xcoding.tech/2016/09/12/Ember.js/%E5%8D%87%E7%BA%A7Ember-cli/)
 本教程是介绍升级到2.2版本的，不过同样的道理，只需要修改对应的版本为2.4即可。
