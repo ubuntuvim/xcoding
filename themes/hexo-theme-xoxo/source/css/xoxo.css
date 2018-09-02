@@ -717,10 +717,11 @@ body {
   background-color: #fff;
   display: block;
   font-size: 0;
-  margin: 15px auto;
-  max-width: 850px;
-  padding: 0 10px;
+  margin-top: 100px;
+  /* max-width: 850px; */
+  /* padding: 0 10px; */
   position: relative;
+  font-weight: normal;
 }
 .post-nav .post-nav-item {
   display: inline-block;
@@ -1022,4 +1023,10 @@ code {
 /*# sourceMappingURL=xoxo.css.map */
 .nav-container {
   background: #efefef;
+}
+.toc-container {
+  z-index: 1000;
+}
+#container {
+  border-top: 0.5px solid #eee;
 }
