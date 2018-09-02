@@ -1,24 +1,17 @@
-<% if (config.disqus_shortname){ %>
-  <section class="disqus-comments">
-    <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-  </section>
 
-  <script>
-    var disqus_shortname = '<%= config.disqus_shortname %>';
-    <% if (page.permalink){ %>
-    var disqus_url = '<%= page.permalink %>';
-    <% } %>
-    (function(){
-      var dsq = document.createElement('script');
-      dsq.type = 'text/javascript';
-      dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/<% if (page.comments) { %>embed.js<% } else { %>count.js<% } %>';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  // id: '页面 ID', // 可选。默认为 location.href
+  owner: 'ubuntuvim',
+  repo: 'ubuntuvim.github.io',
+  oauth: {
+    client_id: '48b3df0bf4ba1743e0a3',
+    client_secret: 'c6c2cec09acb5eecc9d325d56cef187264aa1e16',
+  },
+})
+gitment.render('container')
+</script>
 
-  <script id="dsq-count-scr" src="//<%= config.disqus_shortname %>.disqus.com/count.js" async></script>
-
-<% } %>
