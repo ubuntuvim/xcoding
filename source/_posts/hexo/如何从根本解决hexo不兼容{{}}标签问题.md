@@ -48,7 +48,7 @@ Unhandled rejection Template render error: (unknown path) [Line 10, Column 95]
     at processImmediate [as _immediateCallback] (timers.js:596:5)
 ```
 
-出现上述原因都是因为你的Markdown文件中有标签与`nunjucks`模板引擎的标签冲突了，比如`{{}}`，`{% raw %}{#{% endraw %}`， `{% raw %}{%{% endraw %}`，这些标签都是模板引擎的，如果Markdown文件中有这些标签，那么在解析的是就会把Markdown中的标签动态解析了。通常情况下是不允许的。
+出现上述原因都是因为你的Markdown文件中有标签与`nunjucks`模板引擎的标签冲突了，比如`{% raw %}{{}}{% endraw %}`，`{% raw %}{#{% endraw %}`， `{% raw %}{%{% endraw %}`，这些标签都是模板引擎的，如果Markdown文件中有这些标签，那么在解析的是就会把Markdown中的标签动态解析了。通常情况下是不允许的。
 
 有关模板引擎nunjucks更多相关信息请转到[https://mozilla.github.io/nunjucks/cn/getting-started.html](https://mozilla.github.io/nunjucks/cn/getting-started.html)
 
@@ -65,7 +65,7 @@ Unhandled rejection Template render error: (unknown path) [Line 10, Column 95]
 {% endraw %}
 ```
 
-但是治标不治本啊，如果是用这个标签处理，那么你后续的Markdown文件内容但凡是包含`{{}}`或者`{{#}}`等等这些标签的内容都会解析失败，那么有什么好的处理方案呢？
+但是治标不治本啊，如果是用这个标签处理，那么你后续的Markdown文件内容但凡是包含`{% raw %}{{}}{% endraw %}`或者`{% raw %}{{#}}{% endraw %}`等等这些标签的内容都会解析失败，那么有什么好的处理方案呢？
 
 ## 处理方案2
 答案是有的，我们可以直接修改`nunjucks`模板的源代码，找到如下文件：
@@ -90,7 +90,7 @@ var COMMENT_END = '@}';
 var TOKEN_STRING = 'string';
 ```
 
-可以直接改了这些渲染标签，比如我的Markdown文件中就是需要显示`{{name}}`这一类代码。那么你可以这么做：
+可以直接改了这些渲染标签，比如我的Markdown文件中就是需要显示`{% raw %}{{name}}{% endraw %}`这一类代码。那么你可以这么做：
 ```js
 var VARIABLE_START = '{$';
 var VARIABLE_END = '$}';
