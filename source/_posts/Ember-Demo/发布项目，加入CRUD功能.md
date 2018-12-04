@@ -85,7 +85,7 @@ Phone: {{library.phone}}
   {{/each}}
 </div>
 ```
-相比原来的代码增加了一个连接和一个按钮，分别用于编辑和删除library信息。相对于需要增加一个路由`libraries/edit`和一个处理的动作`{{action 'deleteLibrary'}}`。
+相比原来的代码增加了一个连接和一个按钮，分别用于编辑和删除library信息。相对于需要增加一个路由`libraries/edit`和一个处理的动作`{% raw %}{{action 'deleteLibrary'}}{% endraw %}`。
 如果此时运行[http://localhost:4200/libraries](http://localhost:4200/libraries)会出现错误，因为还没定义路由`libraries/edit`和`action`。别急，先一步步来，下面先增加一些css样式。
 ```
 # app/styles/app.scss
@@ -139,7 +139,7 @@ export default Router;
 ```
 注意`this.route('edit', { path: '/:library_id/edit' });`这行代码的设置。与普通的路由稍有不同这里增加了一个参数，并且参数内使用`path`设定路由渲染之后`edit`会被`/:library_id/edit`替换。
 编译、渲染之后的URL格式为`http://example.com/libraries/1234/edit`其中`:library_id`这是一个动态段，这个URL例子中动态段`library_id`的值就是`1234`，并且可以在路由类中获取这个动态段的值。
-更多有关动态段的介绍请看[Ember.js 入门指南之十三{{link-to}} 助手](http://blog.ddlisting.com/2016/03/22/ember-js-ru-men-zhi-nan-zhi-shi-san-link-to/)或者[Dynamic Segments](https://guides.emberjs.com/v2.5.0/routing/defining-your-routes/#toc_dynamic-segments)。
+更多有关动态段的介绍请看[Ember.js 入门指南之十三{% raw %}{{link-to}}{% endraw %} 助手](http://blog.ddlisting.com/2016/03/22/ember-js-ru-men-zhi-nan-zhi-shi-san-link-to/)或者[Dynamic Segments](https://guides.emberjs.com/v2.5.0/routing/defining-your-routes/#toc_dynamic-segments)。
 
 配置完路由之后修改路由`libraries/edit.js`的代码。
 ```js
@@ -216,7 +216,7 @@ Ember会自动根据URL的格式解析得到。并且可以在路由类中获取
 
 ![library修改页面](/image/blog-image/1.jpeg)
 
-**注意**：看浏览器的URL。首页模板代码`{{#link-to 'libraries.edit' library.id class='btn btn-success btn-xs'}}Edit{{/link-to}}`中的路由`libraries.edit`渲染之后会得到形如`libraries/xxx/edit`的URL，其中`xxx`就是动态段的值。
+**注意**：看浏览器的URL。首页模板代码`{% raw %}{{#link-to 'libraries.edit' library.id class='btn btn-success btn-xs'}}Edit{{/link-to}}{% endraw %}`中的路由`libraries.edit`渲染之后会得到形如`libraries/xxx/edit`的URL，其中`xxx`就是动态段的值。
 
 ![修改name的值，然后点击菜单的Home](/image/blog-image/164.png)
 
@@ -252,7 +252,7 @@ export default Ember.Route.extend({
   }
 });
 ```
-模板中是这样调用删除方法的`<button class="btn btn-danger btn-xs" {{action 'deleteLibrary' library}}>Delete</button>`，看到参数`library`了吧，这个参数就是一个`library`模型对象。
+模板中是这样调用删除方法的`{% raw %}<button class="btn btn-danger btn-xs" {{action 'deleteLibrary' library}}>Delete</button>{% endraw %}`，看到参数`library`了吧，这个参数就是一个`library`模型对象。
 可以直接调用方法`destroyRecord()`实现删除数据。
 
 ![点击删除按钮](/image/blog-image/167.png)
@@ -284,7 +284,7 @@ this.route('admin', function() {
 ```
 省略其他内容，仅仅列出修改部分。
 
-#### 复制`admin/contact.hbs`的内容到`admin/contact/index.hbs`，然后空`admin/contact.hbs`再在文件内添加`{{outlet}}`
+#### 复制`admin/contact.hbs`的内容到`admin/contact/index.hbs`，然后空`admin/contact.hbs`再在文件内添加`{% raw %}{{outlet}}{% endraw %}`
 
 `admin/contact.hbs`
 ```html
