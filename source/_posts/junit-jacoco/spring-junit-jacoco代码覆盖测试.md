@@ -18,8 +18,6 @@ tag:
 
 复制上一篇的项目，命名为`coverage-spring`，然后把目录下面`src`和`test`目录都删除了，里面的代码也不需要保留。删除之后项目目录结构如下：
 
-复制上一篇的项目，命名为`coverage-spring`，然后把目录下面`src`和`test`目录都删除了，里面的代码也不需要保留。删除之后项目目录结构如下：
-
 ![项目结构](/image/blog-image/java/junit-coverage/1.png)
 
 另外，再把`jacocolib`目录下的`hamcrest-core-1.3.jar`、`junit-4.12.jar`也删除了，一会使用maven重新下载。
