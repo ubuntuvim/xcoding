@@ -1,9 +1,9 @@
 ---
 title: Builder模式——设计模式
 tag:
-	-- 设计模式
-	-- Design Pattern
-	-- Java
+    - 设计模式
+    - Design Pattern
+    - Java
 ---
 
 ### Builder模式
