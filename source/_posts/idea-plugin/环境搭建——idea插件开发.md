@@ -5,4 +5,5 @@ idea的插件肯定就是用idea。
 
 ## 编译工具配置
 
-项目
+项目编译使用gradle，请自行安装配置gradle。
+gradle下载地址：[https://services.gradle.org/distributions/](https://services.gradle.org/distributions/)
