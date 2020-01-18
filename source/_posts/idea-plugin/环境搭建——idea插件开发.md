@@ -1,3 +1,10 @@
+---
+title: 环境搭建——idea插件开发
+tag:
+  - Java
+  - idea-plugin
+---
+
 ## 开发工具
 
 idea的插件肯定就是用idea。
