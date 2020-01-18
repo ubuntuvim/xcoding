@@ -5,5 +5,11 @@ idea的插件肯定就是用idea。
 
 ## 编译工具配置
 
+### JDK
+
+至少1.8或者以上的JDK版本。JDK的下载安装、配置自行处理。
+
+### Gradle
 项目编译使用gradle，请自行安装配置gradle。
 gradle下载地址：[https://services.gradle.org/distributions/](https://services.gradle.org/distributions/)
+
