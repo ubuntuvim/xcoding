@@ -24,7 +24,7 @@ gradle下载地址：[https://services.gradle.org/distributions/](https://servic
 
 在插件里面确认plugin devkit已经安装成功，如果没有则安装。
 
-![devkit](/Users/ubuntuvim/Pictures/idea/1-7.png)
+![devkit](/image/idea-plugin/1-7.png)
 
 ## 创建第一个插件项目
 
@@ -34,19 +34,19 @@ gradle下载地址：[https://services.gradle.org/distributions/](https://servic
 
 >  File -> New -> Project…
 
-![选中Java、Intellij Platfrorm Plugin](/Users/ubuntuvim/Pictures/idea/1-1.png)
+![选中Java、Intellij Platfrorm Plugin](/image/idea-plugin/1-1.png)
 
 **Java、Intellij Platform Plugin**这两个是必须的，JDK至少`1.8`或者以上版本。**Kotlin(Java)**可选。继续下一步。
 
-![group](/Users/ubuntuvim/Pictures/idea/1-2.png)
+![group](/image/idea-plugin/1-2.png)
 
 输入GroupId，ArtifactId，继续下一步。
 
-![gradle设置](/Users/ubuntuvim/Pictures/idea/1-3.png)
+![gradle设置](/image/idea-plugin/1-3.png)
 
 设置自己安装的gradle。选中`Use auto-import`，JDK默认即可。继续下一步。
 
-![项目名称](/Users/ubuntuvim/Pictures/idea/1-4.png)
+![项目名称](/image/idea-plugin/1-4.png)
 
 输入项目名称。其他默认即可。最后点击Finish，等待gradle自动下载项目依赖，如果下载很慢可以引入本地 Intellij SDK。
 
@@ -74,17 +74,17 @@ repositories {
 
 等待gradle自动编译完之后可以看到gradle的命令。
 
-![gradle命令](/Users/ubuntuvim/Pictures/idea/1-5.png)
+![gradle命令](/image/idea-plugin/1-5.png)
 
 都配置好之后，创建一个简单的hello world程序验证环境是否搭建成功。
 
 如下所示，创建一个简单的`Action`类，创建一个Plugin的类和普通类有所差别，在包上`右键 -> New -> Plugin Devkit -> Action `。
 
-![Devkit](/Users/ubuntuvim/Pictures/idea/1-8.png)
+![Devkit](/image/idea-plugin/1-8.png)
 
 简单设置一下Action的信息。
 
-![Action Class](/Users/ubuntuvim/Pictures/idea/1-9.png)
+![Action Class](/image/idea-plugin/1-9.png)
 
 第一个红色框里面是自定义的Action类的名字；
 
@@ -132,16 +132,16 @@ Action创建好之后，`idea-test-plugin2/src/main/resources/META-INF/plugin.xm
 
 直接运行新建的Action，第一次运行会比较慢，等待gradle自动编译，可以看到以下运行日志。
 
-![run log](/Users/ubuntuvim/Pictures/idea/1-11.png)
+![run log](/image/idea-plugin/1-11.png)
 
 运行完毕之后，会从新打开一个Idea窗口。新打开的窗口里面会包含了你自定义的Action，其实说白了就是自己扩展里IDE的功能。
 
 新打开的Idea创建有可能是一个空的，你也可以直接打开一个本地已经创建过的项目。
 
-![open window](/Users/ubuntuvim/Pictures/idea/1-12.png)
+![open window](/image/idea-plugin/1-12.png)
 
 可以看到在新打开的创建中，在**Help**菜单下多了一个自定义的子菜单，点击这个子菜单，此时不会有任何反应，因为我们并没有实现任何操作，只是打印了一个控制台日志。回到原来开发插件的窗口，可以在控制台上看到输出了`System.out`日志。
 
-![out log](/Users/ubuntuvim/Pictures/idea/1-14.png)
+![out log](/image/idea-plugin/1-14.png)
 
 虽然很简单，但是起码验证了开发插件的环境是搭建成功了。另外，新打开的创建也是一个正常可以用的Idea窗口，你可以在里面创建、开发其他的项目。与正常的Idea窗口无差别。

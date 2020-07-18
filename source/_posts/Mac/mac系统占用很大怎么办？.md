@@ -1,3 +1,11 @@
+
+---
+title: mac系统占用很大怎么办？
+tag:
+	- Mac
+	- MacBook Pro
+---
+
 ### mac系统占用很大怎么办？
 
 
