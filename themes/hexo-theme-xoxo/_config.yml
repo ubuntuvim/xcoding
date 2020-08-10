@@ -9,9 +9,14 @@ menu:
   tags: /tags
   #categories: /categories
   search: /search
-  about: /about 
+  about: /about
   rss: /atom.xml
 
+search:
+  path: search.xml
+  field: post
+  content: true
+  
 title: Keep Coding
 
 # Miscelaneous
@@ -36,6 +41,14 @@ scripts:
 show_excerpt: true
 show_date: true
 #footer
-index_page: http://xcoding.tech/ 
+index_page: http://xcoding.tech/
 main_site: http://xcoding.tech/
 github: https://github.com/ubuntuvim
+
+# mermaid chart
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true  # default true
+  version: "7.1.2" # default v7.1.2
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+    #startOnload: true  // default true
+  external_link: false

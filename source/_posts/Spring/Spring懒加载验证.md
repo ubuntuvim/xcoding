@@ -7,6 +7,10 @@ tag:
 
 ## 懒加载的几个疑问？？
 
+说明:
+本篇是基于Spring5.x版本做的演示。不同的版本可能效果不一样，比如@Lazy注解在3.1版本是不支持在属性、构造方法、参数上使用的。
+
+
 - 对于使用了@Component注解的类如何统一做延迟加载，是否可以通过Bean定义的后置处理器`BeanDefinitionRegistryPostProcessor`做统一设置？
 > 答案是做不到，`BeanDefinitionRegistryPostProcessor`并未提供便利bean定义的方法，即使有也不好控制那些bean设置成懒加载
 
