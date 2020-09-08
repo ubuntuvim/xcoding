@@ -16,7 +16,7 @@ search:
   path: search.xml
   field: post
   content: true
-
+  
 feed:
   type: atom
   path: atom.xml
@@ -29,7 +29,7 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
-        
+
 title: Keep Coding
 
 # Miscelaneous
@@ -64,4 +64,4 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
   version: "7.1.2" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
-  external_link: false
+    external_link: false
