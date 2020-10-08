@@ -5,7 +5,7 @@
 # Site
 title: Keep Coding
 subtitle:  一个专注一coding的网站。
-description: 一个专注一coding的网站。
+description: 一个专注一coding的网站。提供丰富编程知识，包括Spring、Java、EmberJS、SpringBoot等等技术。
 keywords: java,JVM,code,program
 author: ubuntuvim
 language:
@@ -86,6 +86,7 @@ deploy:
   branch: master
 
 
+# https://github.com/hexojs/hexo-generator-search
 search:
   path: search.xml
   field: post
@@ -97,4 +98,10 @@ feed:
   path: atom.xml
   limit: 20
   hub:
+  content:
   content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
