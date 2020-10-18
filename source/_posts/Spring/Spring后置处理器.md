@@ -27,6 +27,8 @@ bean定义后置处理器是Spring框架提供的第一个扩展点。其中有�
 >
 > 接口的一个典型应用就是`PropertySourcesPlaceholderConfigurer`。
 
+##### 接口源码
+
 Spring框架`BeanFactoryPostProcessor`接口源码如下：
 
 ```java
@@ -70,6 +72,8 @@ public interface BeanFactoryPostProcessor {
 
 }
 ```
+
+##### 使用案例
 
 自定义一个实现类，验证。
 
@@ -167,10 +171,9 @@ com.ubuntuvim.spring.beanfactorypostprocessor.LazyLoadingBean被加载了。。�
 
 
 
-### 待跟进
+#### 待跟进
 
 学习`PropertyResourceConfigurer`是如何替换类中的占位符`@Value("${xxx}")`。
-
 
 
 
@@ -182,7 +185,7 @@ com.ubuntuvim.spring.beanfactorypostprocessor.LazyLoadingBean被加载了。。�
 >
 > 此接口一个非常重要的实现类就是`ConfigurationClassPostProcessor`，这个类用于解析`@Component`，`@Service`，`@ComponentScan`，`@Configuration`等注解，把注解对应的类转换成`BeanDefinition`然后注册到IoC容器中。
 
-接口源码：
+##### 接口源码
 
 ```java
 package org.springframework.beans.factory.support;
@@ -224,6 +227,8 @@ public interface BeanDefinitionRegistryPostProcessor extends BeanFactoryPostProc
 
 }
 ```
+
+##### 使用案例
 
 自定义一个实现类，通过编码的方式往容器注入一个bean定义。
 
@@ -296,6 +301,110 @@ com.ubuntuvim.spring.beanfactorypostprocessor.InjectBeanFromPostProcessor被加�
 结果符合预期，`InjectBeanFromPostProcessor`成功注册到IoC容器中，并且可以被IoC容器实例化。
 
 以上两个接口就是Spring框架提供的第一个扩展点，用于修改为实例化之前的bean定义信息。
+
+
+
+####  SmartInitializingSingleton接口
+
+**这个接口Spring4.1之后才有**
+
+> `SmartInitializingSingleton`是spring 4.1中引入的新特效，与`InitializingBean`的功能类似，都是**bean实例化后执行自定义初始化**，都是属于[spring bean生命周期](https://blog.csdn.net/alex_xfboy/article/details/51211054)的增强。但是，`SmartInitializingSingleton`的**定义及触发方式方式上有些区别**，它的定义不在当前的bean中（a bean's local construction phase），它是回调接口（针对**非lazy单例Bean**），回调的操作是由spring事件`ContextRefreshedEvent`触发。
+
+
+
+##### 接口源码
+
+```java
+package org.springframework.beans.factory;
+
+/**
+ * 实现该接口后，当所有单例 bean 都初始化完成以后， 容器会回调该接口的方法 afterSingletonsInstantiated。
+ * 主要应用场合就是在所有单例 bean 创建完成之后，可以在该回调中做一些事情。
+ * @PostConstruct是最先被执行的，然后是InitializingBean，最后是SmartInitializingSingleton
+ *
+ * 为什么是在当所有单例 bean 都初始化完成以后才执行这个接口的原因直接看源码就知道了：
+ * AbstractApplicationContext.refresh() -> finishBeanFactoryInitialization() -> ConfigurableListableBeanFactory.preInstantiateSingletons()
+ *
+ * 但是需要注意：不要再次接口中提前使用容器管理的bean对象，
+ * 因为此时直接通过getBean()方法获取到的实例还没通过IoC容器的其他初始化后置处理的增强。
+ *
+ * @since 4.1
+ */
+public interface SmartInitializingSingleton {
+
+	/**
+	 * 所有单例对象都是实例化完成之后就会回调这个接口实现类的此方法。
+	 */
+	void afterSingletonsInstantiated();
+
+}
+```
+
+`SmartInitializingSingleton`接口的实现主要是Spring框架内部使用，目前Spring框架内部已经有差不多30个实现类。
+
+![SmartInitializingSingleton接口实现类](https://oscimg.oschina.net/oscnet/up-677ccab99e962d5562335695f80b97a8340.png)
+
+一个很典型的应用是`EventListenerMethodProcessor`类，这个类的作用的是用来对 `@EventListener` 提供支持.
+
+主要是标注了`@EventListener` 的方法进行解析, 然后转换为一个 `ApplicationListener`。解析的方法就是实现了`SmartInitializingSingleton`接口的`afterSingletonsInstantiated()`方法，在这个方法中处理。
+
+##### 使用案例
+
+定义一个实现类，同时实现了`SmartInitializingSingleton`接口和`InitializingBean`接口，并且在类中使用`@PostConstruct`注解。验证这几种方式的初始化执行顺序。
+
+```java
+package com.ubuntuvim.spring.beanpostprocess;
+
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.SmartInitializingSingleton;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+
+/**
+ * 在所有bean实例化之后（初始化前）回调这个接口afterSingletonsInstantiated
+ * 初始化操作执行顺序：@PostConstruct是最先被执行的，然后是InitializingBean，最后是SmartInitializingSingleton
+ */
+@Component
+public class MySmartInitializingSingletonImpl implements SmartInitializingSingleton, ApplicationContextAware, InitializingBean {
+
+	ApplicationContext applicationContext;
+
+	@PostConstruct
+	public void invokePostConstruct() {
+		System.out.println("1. @PostConstruct注释方法被执行");
+	}
+
+	@Override
+	public void afterSingletonsInstantiated() {
+		System.out.println("3. SmartInitializingSingleton接口的afterSingletonsInstantiated()方法被执行了");
+		InitBean initBean = applicationContext.getBean(InitBean.class);
+		initBean.f();
+	}
+
+	@Override
+	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+		this.applicationContext = applicationContext;
+	}
+
+	@Override
+	public void afterPropertiesSet() throws Exception {
+		System.out.println("2. InitializingBean接口的afterPropertiesSet()方法被执行了");
+	}
+}
+```
+
+执行结果：
+
+```shell
+1. @PostConstruct注释方法被执行
+2. InitializingBean接口的afterPropertiesSet()方法被执行了
+3. SmartInitializingSingleton接口的afterSingletonsInstantiated()方法被执行了
+com.ubuntuvim.spring.beanpostprocess.InitBean的方法f()被调用
+```
 
 
 
