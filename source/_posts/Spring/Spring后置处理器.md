@@ -303,6 +303,13 @@ com.ubuntuvim.spring.beanfactorypostprocessor.InjectBeanFromPostProcessor被加�
 以上两个接口就是Spring框架提供的第一个扩展点，用于修改为实例化之前的bean定义信息。
 
 
+#### ConfigurationClassPostProcessor接口
+
+##### 接口源码
+
+##### 使用案例
+
+
 
 ####  SmartInitializingSingleton接口
 
@@ -407,4 +414,61 @@ com.ubuntuvim.spring.beanpostprocess.InitBean的方法f()被调用
 ```
 
 
+
+#### InstantiationAwareBeanPostProcessor接口或者InstantiationAwareBeanPostProcessorAdapter
+
+##### 接口源码
+
+##### 使用案例
+
+
+#### MergedBeanDefinitionPostProcessor接口
+
+##### 接口源码
+
+##### 使用案例
+
+
+
+#### SmartInstantiationAwareBeanPostProcessor接口
+
+##### 接口源码
+
+##### 使用案例
+
+
+
+
+#### BeanFactoryAware/ApplicationContextAware/BeanNameAware接口
+
+##### 接口源码
+
+##### 使用案例
+
+#### CommonAnnotationBeanPostProcessor
+
+##### 接口源码
+
+##### 使用案例
+
+#### AutowiredAnnotationBeanPostProcessor
+
+##### 接口源码
+
+##### 使用案例
+
+
+#### InitDestroyAnnotationBeanPostProcessor接口
+
+##### 接口源码
+
+##### 使用案例
+
+
+
+
+
+#### 参考资料
+
+https://fangjian0423.github.io/2017/06/20/spring-bean-post-processor/
 
