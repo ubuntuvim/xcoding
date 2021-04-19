@@ -2389,7 +2389,7 @@ english value
 
 ### initApplicationEventMulticaster()
 
-这个方法和前面的`initMessageSource`很类似，指示作用不同。本方法用于初始化事件派发器。主要是通过观察者模式实现（叫作发布订阅模式Publish/Subscribe，定义对象间一对多的依赖关系，使得每当一个对象改变状态，则所有依赖与它的对象都会得到通知，并被自动更新。）。事件的发布、监听不是学习Spring框架的主要内容，就做一个简单的案例学习略过。
+这个方法和前面的`initMessageSource`很类似，只是作用不同。本方法用于初始化事件派发器。主要是通过观察者模式实现（叫作发布订阅模式Publish/Subscribe，定义对象间一对多的依赖关系，使得每当一个对象改变状态，则所有依赖与它的对象都会得到通知，并被自动更新。）。事件的发布、监听不是学习Spring框架的主要内容，就做一个简单的案例学习略过。
 
 同时需要注意的是这个方法和接下来的`registerListeners()`方法是有关联关系的。`initApplicationEvenMultiCaseter()`方法初始化的事件会在`registrListeners()`方法中被监听。
 
@@ -2565,6 +2565,146 @@ protected void registerListeners() {
   }
 }
 ```
+
+##### 使用案例
+
+分别定义一个事件、一个事件监听以及事件的内容。
+
+##### 事件定义
+
+```java
+package com.ubuntuvim.spring.event;
+
+
+import org.springframework.context.ApplicationEvent;
+
+/**
+ * 定义一个事件
+ * @Author: ubuntuvim
+ * @Date: 2020/9/26 上午1:55
+ */
+public class MyEvent extends ApplicationEvent {
+
+	private static final long serialVersionUID = 21162432L;
+
+	/**
+	 * 事件的内容必须是实现Serializable接口的
+	 * @param source
+	 */
+	public MyEvent(EventContent source) {
+		super(source);
+	}
+}
+```
+
+##### 监听定义
+
+Spring4.1之后有两种方式定义一个事件监听，一是通过实现`ApplicationListener`接口，二是在方法上使用`@EventListener`注解。
+
+```java
+package com.ubuntuvim.spring.event;
+
+
+import org.springframework.context.ApplicationEvent;
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.event.EventListener;
+import org.springframework.stereotype.Component;
+
+/**
+ * 定义一个事件监听器。
+ * Spring4.1之后有两种实现监听器：
+ * 1. 实现ApplicationListener接口
+ * 2. 使用@EventListener注解
+ * @Author: ubuntuvim
+ * @Date: 2020/9/26 上午2:02
+ */
+@Component
+public class MyListener implements ApplicationListener<MyEvent> {
+	@Override
+	public void onApplicationEvent(MyEvent event) {
+		System.out.println(this.getClass().getName() + "监听到了发布的事件，事件内容是: " + event.getSource());
+	}
+
+	@EventListener
+	public void listenerEvent(MyEvent myEvent) {
+		System.out.println("使用@EventListener方式，监听到了发布的事件，事件内容是: " + myEvent.getSource());
+	}
+}
+```
+
+##### 事件内容定义
+
+事件的内容比较特殊，必须是`Serializable`接口的实现。
+
+```java
+package com.ubuntuvim.spring.event;
+
+
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+ * 事件内容，必须实现Serializable接口
+ * @Author: ubuntuvim
+ * @Date: 2020/9/26 上午2:08
+ */
+public class EventContent implements Serializable {
+
+	private static final long serialVersionUID = 2432432L;
+
+	private String content;
+
+	public EventContent(String content) {
+		this.content = content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	@Override
+	public String toString() {
+		return "EventContent{" +
+				"content='" + content + '\'' +
+				'}';
+	}
+}
+```
+
+使用
+
+```java
+package com.ubuntuvim.spring.event;
+
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+/**
+ * @Author: ubuntuvim
+ * @Date: 2020/9/26 上午2:05
+ */
+public class EventTest {
+   public static void main(String[] args) {
+      ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+      // 发布事件
+      applicationContext.publishEvent(new MyEvent(new EventContent("中国的原子弹搞出来了。")));
+   }
+}
+```
+
+直接调用应用上下文的`publishEvent()`方法就可以发布事件，事件的发布逻辑Spring已经帮你实现好，就是前面的`initApplicationEventMulticaster()`方法和`registerListeners()`方法实现的。
+
+运行结果：
+
+```shell
+使用@EventListener方式，监听到了发布的事件，事件内容是: EventContent{content='中国的原子弹搞出来了。'}
+com.ubuntuvim.spring.event.MyListener监听到了发布的事件，事件内容是: EventContent{content='中国的原子弹搞出来了。'}
+```
+
+##### 使用场景
+
+我们可以使用这个事件的发布机制做一些异步的操作，比如用户登录成功之后可以发送邮件提醒给用户，邮件的发送逻辑可以从登录的逻辑中剥离，在事件监听里面处理。
 
 
 
