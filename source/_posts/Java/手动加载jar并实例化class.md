@@ -1,7 +1,7 @@
 ---
 title: 手动加载jar并实例化class
 tag:
-	-java
+	- Java
 ---
 
 

@@ -309,6 +309,13 @@ com.ubuntuvim.spring.beanfactorypostprocessor.InjectBeanFromPostProcessor被加�
 ##### 使用案例
 
 
+#### ConfigurationClassPostProcessor接口
+
+##### 接口源码
+
+##### 使用案例
+
+
 
 ####  SmartInitializingSingleton接口
 
@@ -414,6 +421,7 @@ com.ubuntuvim.spring.beanpostprocess.InitBean的方法f()被调用
 
 
 
+<<<<<<< HEAD
 #### InstantiationAwareBeanPostProcessor接口
 
 此接口主要的作用于目标对象实例化过程需要处理的事情，包括实例化对象前后过程以及实例化属性的设置。`InstantiationAwareBeanPostProcessor`是Spring框架非常非常重要的接口，不亚于`BeanPostProcessor`接口。特别是Spring框架内部，非常多的扩展功能都是通过实现`InstantiationAwareBeanPostProcessor`接口完成的。比如：`AutowiredAnnotationBeanPostProcessor`就是实现这个接口的实现了`@Autowire`和`@Value`注解的处理，这个接口还有一个很重要的子接口`SmartInstantiationAwareBeanPostProcessor`。
@@ -727,6 +735,14 @@ protected void populateBean(String beanName, RootBeanDefinition mbd, @Nullable B
 
 
 
+=======
+#### InstantiationAwareBeanPostProcessor接口或者InstantiationAwareBeanPostProcessorAdapter
+
+##### 接口源码
+
+##### 使用案例
+
+>>>>>>> 8acc8492f5f2286c54fa6be583a14cccfeed7585
 
 #### MergedBeanDefinitionPostProcessor接口
 
@@ -738,7 +754,14 @@ protected void populateBean(String beanName, RootBeanDefinition mbd, @Nullable B
 
 #### SmartInstantiationAwareBeanPostProcessor接口
 
+<<<<<<< HEAD
 同`InstantiationAwareBeanPostProcessorAdapter`
+=======
+##### 接口源码
+
+##### 使用案例
+
+>>>>>>> 8acc8492f5f2286c54fa6be583a14cccfeed7585
 
 
 
@@ -750,6 +773,7 @@ protected void populateBean(String beanName, RootBeanDefinition mbd, @Nullable B
 
 #### CommonAnnotationBeanPostProcessor
 
+<<<<<<< HEAD
 同`InitDestoryAnnotationBeanPostProcessor`
 
 
@@ -1056,4 +1080,30 @@ public void destroy() {
 到此，`InitDestroyAnnotationBeanPostProcessor`初始、销毁后置处理器也介绍完了，不知道你看明白了吗？如果有疑问可以给我留言，我把演示的案例代码发给你。篇幅有限就在文章中直接贴代码了。
 
 总结下来，最最最重要的一点就是要搞懂`doCreateBean()`方法，这个方法是Spring bean生命周期的实现。里面的后置处理器执行顺序决定了bean的实例化、bean定义合并、bean属性填充，bean初始化顺序。并且每个步骤都是通过执行对应的后置处理器来完成的。
+=======
+##### 接口源码
+
+##### 使用案例
+
+#### AutowiredAnnotationBeanPostProcessor
+
+##### 接口源码
+
+##### 使用案例
+
+
+#### InitDestroyAnnotationBeanPostProcessor接口
+
+##### 接口源码
+
+##### 使用案例
+
+
+
+
+
+#### 参考资料
+
+https://fangjian0423.github.io/2017/06/20/spring-bean-post-processor/
+>>>>>>> 8acc8492f5f2286c54fa6be583a14cccfeed7585
 
