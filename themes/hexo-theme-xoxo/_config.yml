@@ -48,6 +48,7 @@ stylesheets:
 scripts:
 - /js/zepto.min.js
 #- /js/xoxo.js
+- /js/gitment.browser.js
 
 
 # switch
@@ -65,3 +66,14 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
     external_link: false    
+
+
+plugins:
+  gitalk:
+    clientID: 48b3df0bf4ba1743e0a3
+    clientSecret: 4cf1e76de9e18b9ad0def477c36ab22059b152c8
+    repo: ubuntuvim.github.io
+    owner: ubuntuvim
+    admin: 
+      - ubuntuvim
+    distractionFreeMode: false

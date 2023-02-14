@@ -2520,6 +2520,8 @@ public class EventTest {
 com.ubuntuvim.spring.event.MyListener监听到了发布的事件，事件内容是: EventContent{content='中国的原子弹搞出来了。'}
 ```
 
+更多事件相关的案例可以参考：https://www.cnblogs.com/rickiyang/p/12001524.html
+
 
 
 ### onRefresh()
