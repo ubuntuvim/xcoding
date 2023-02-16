@@ -8,8 +8,8 @@ menu:
   search: /search
   tags: /tags
   archives: /archives
+  rss: /atom.xml
   about: /about
-  # rss: /atom.xml
 
 search:
   path: search.xml
