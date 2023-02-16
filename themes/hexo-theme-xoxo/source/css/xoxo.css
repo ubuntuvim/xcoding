@@ -95,8 +95,8 @@ footer {
   margin-top: 2rem!important;
   color: #999;
   font-size: 12px;
-  position: relative;
-  z-index: 1024;
+/*  position: relative;*/
+/*  z-index: 1024;*/
 }
 footer .bottom-item {
   margin-left: 5px;

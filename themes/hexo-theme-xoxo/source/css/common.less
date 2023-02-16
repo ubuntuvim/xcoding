@@ -1,10 +1,13 @@
 html, body {
   font-size: 18px;
   font-weight: normal;
+  	scroll-behavior: smooth; /* 平滑滚动 */
 }
+
 body {
   color: #303030;
   margin: 0;
+  display: grid;
 }
 
 .nav-container {
@@ -133,7 +136,7 @@ body {
     background-color: #f9f9f9 !important;
     min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	margin-top: 2px;
+	// margin-top: 1px;
 	text-align: center;
 }
 
@@ -287,7 +290,7 @@ body {
       @media screen and (min-width: 1260px) {
         display: block;
         position: fixed;
-        margin-left: -15px;
+        margin-left: 15px;
         max-height: calc(~"100vh - 150px");
         width: 200px;
         top: 25%;
@@ -686,3 +689,46 @@ body {
 //    width: 400px;
 //  }
 //}
+
+//  --------- 回到顶部按钮 --------
+
+body {
+	// 用于抵消按钮出现之后页面底部的留白空间
+	grid-template-columns: 1fr 0px; 
+}
+.return-top {
+  --offset: 50%; /* 控制按钮出现 */
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right: 10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+
+  // scroll-padding-top: calc(100px + var(--offset));
+  // scroll-padding-bottom: 100px;
+  
+  width: 50px;
+  aspect-ratio: 1;
+  background: #ddd;
+  border-radius: 10px;
+  font-size: 0;
+  color: #fff;
+}
+.return-top:before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;  
+}
+ 
+a.return-top:hover {
+    background-color: #999;
+}
+
+
+.gt-container {
+	padding: 20px;
+}
