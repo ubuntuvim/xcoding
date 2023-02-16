@@ -5,12 +5,11 @@ language: zh-Hans
 # main menu navigation
 menu:
   home: /
-  archives: /archives
-  tags: /tags
-  #categories: /categories
   search: /search
+  tags: /tags
+  archives: /archives
   about: /about
-  rss: /atom.xml
+  # rss: /atom.xml
 
 search:
   path: search.xml
@@ -30,7 +29,8 @@ feed:
   autodiscovery: true
   template:
 
-title: Keep Coding
+# 网站标题
+#title: 
 
 # Miscelaneous
 favicon: /image/favicon.ico
@@ -48,12 +48,16 @@ stylesheets:
 scripts:
 - /js/zepto.min.js
 #- /js/xoxo.js
-- /js/gitment.browser.js
+# - /js/gitment.browser.js
 
 
 # switch
 show_excerpt: true
 show_date: true
+# show_excerpt: true
+# excerpt: true
+
+
 #footer
 index_page: http://xcoding.tech/
 main_site: http://xcoding.tech/

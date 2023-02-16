@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Keep Coding
+title: 
 subtitle:  一个专注一coding的网站。
 description: 一个专注一coding的网站。提供丰富编程知识，包括Spring、Java、EmberJS、SpringBoot等等技术。
-keywords: java,JVM,code,program
+keywords: java,JVM,code,program,架构,工程师
 author: ubuntuvim
 language:
 timezone:
@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://xcoding.tech/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -51,8 +51,9 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 20
   order_by: -date
+
 
 # Category & Tag
 default_category: uncategorized
@@ -75,6 +76,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-xoxo
+
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

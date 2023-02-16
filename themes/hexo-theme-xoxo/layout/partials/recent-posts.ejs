@@ -21,9 +21,9 @@
 
         </div>
 
-        <% if (theme.show_excerpt && post.excerpt) { %>
+		<% if (theme.show_excerpt && post.excerpt) { %>
           <div class="post-excerpt">
-            <%- post.excerpt %>
+            <%= post.excerpt %>
           </div>
         <% } %>
         <a class="more" href="<%=config.root + post.path%>"> 阅读全文〉</a>

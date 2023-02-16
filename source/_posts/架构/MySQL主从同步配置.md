@@ -55,16 +55,18 @@ mps suspend --all
 
 在虚拟机上安装mysql
 
-    sudo apt update
+  ```
+  sudo apt update
     sudo apt install mysql-server
     sudo systemctl status mysql
     
     /etc/mysql/mysql.cnf
     /lib/systemd/system/mysql.service
     /var/log/mysql/error.log
+```
 
 配置账户
-
+```
     登录mysql：sudo mysql
     配置账户：ALTER USER 'root'@'localhost' IDENTIFIED BY '123456';
     flush privileges;
@@ -97,7 +99,7 @@ mysql启动
     sudo systemctl start mysql
     sudo systemctl stop mysql
 
-
+```
 
 ## 主从同步
 

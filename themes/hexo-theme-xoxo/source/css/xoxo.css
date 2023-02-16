@@ -1,3 +1,4 @@
+
 .text-center {
   text-align: center !important;
 }
@@ -194,20 +195,21 @@ body {
   -ms-flex-align: center;
       align-items: center;
   width: 100%;
+  background-color: #161b22 !important;
+  color: #fff !important;
 }
 .nav-container .home-menu {
-  border-bottom-style: solid;
-  border-bottom-color: #f6f6f6;
-  border-bottom-width: 0.5px;
+ 
   height: 50px;
   padding: 5px 20px;
-  /* background: #fefefe; */
+  background-color: #161b22 !important;
+  color: #fff !important;
   -ms-flex-direction: row;
-      flex-direction: row;
+  flex-direction: row;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
   overflow-y: scroll;
   max-width: 1000px;
   margin-left: auto;

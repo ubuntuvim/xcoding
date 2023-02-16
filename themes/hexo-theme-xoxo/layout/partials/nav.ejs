@@ -1,17 +1,38 @@
 <nav class="home-menu pure-menu pure-menu-horizontal">
   <a class="pure-menu-heading" href="/">
     <img class="avatar" src="/image/favicon.ico">
-    <span class="title"><%=config.title%></span>
+
   </a>
 
   <ul class="pure-menu-list clearfix">
-      <% Object.keys(theme.menu).forEach(function(key) { %>
-          <% if ((is_home() && key==='home') || (is_archive() && key==='archives') || page.type === key) { %>
-            <li class="pure-menu-item actived"><a href="<%=theme.menu[key]%>" class="pure-menu-link"><%= __(key)%></a></li>
-          <% } else { %>
-            <li class="pure-menu-item"><a href="<%=theme.menu[key]%>" class="pure-menu-link"><%= __(key)%></a></li>
-          <% } %>
-      <% }); %>
+  	<li class="pure-menu-item">
+		<div class="dropdown">
+		    <a href="#" class="dropbtn pure-menu-link">
+				<svg t="1676514030881" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4851" width="48" height="48"><path d="M223.962372 607.897867c-52.980346 0-95.983874-43.003528-95.983874-95.983874s43.003528-95.983874 95.983874-95.983874 95.983874 43.003528 95.983874 95.983874S276.942718 607.897867 223.962372 607.897867z" fill="#ffffff" p-id="4852"></path><path d="M511.913993 607.897867c-52.980346 0-95.983874-43.003528-95.983874-95.983874s43.003528-95.983874 95.983874-95.983874 95.983874 43.003528 95.983874 95.983874S564.894339 607.897867 511.913993 607.897867z" fill="#ffffff" p-id="4853"></path><path d="M800.037628 607.897867c-52.980346 0-95.983874-43.003528-95.983874-95.983874s43.003528-95.983874 95.983874-95.983874 95.983874 43.003528 95.983874 95.983874S852.84596 607.897867 800.037628 607.897867z" fill="#ffffff" p-id="4854"></path></svg>
+			</a>
+		    <div class="dropdown-content">
+		      <% Object.keys(theme.menu).forEach(function(key) { %>
+		          <% if ((is_home() && key==='home') || (is_archive() && key==='archives') || page.type === key) { %>
+		            
+						<a href="<%=theme.menu[key]%>" class="pure-menu-link">
+							<%= __(key)%>
+						</a>
+					
+		          <% } else { %>
+		            
+						<a href="<%=theme.menu[key]%>" class="pure-menu-link">
+							<%= __(key)%>
+						</a>
+					
+		          <% } %>
+		      <% }); %>
+		    </div>
+		  </div>
+	</li>
+	
+	
+	  
+      
   </ul>
    
 </nav>

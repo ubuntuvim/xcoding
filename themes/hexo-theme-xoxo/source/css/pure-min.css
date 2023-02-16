@@ -12,5 +12,12 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
 
 .pure-menu-active>.pure-menu-link, .pure-menu-link:focus, .pure-menu-link:hover {
     font-size: 18px !important;
-    background-color: #efefef !important;
-  }
+    background-color: #161b22 !important;
+	color:#2196F3 !important;
+}
+
+.pure-menu-link:hover {
+/*    font-size: 18px !important;*/
+    background-color: #161b22 !important;
+/*	color:#2196F3;*/
+}
