@@ -189,21 +189,21 @@ body {
 }
 .nav-container {
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   position: fixed;
   z-index: 100;
   -ms-flex-align: center;
-      align-items: center;
+  /* align-items: center; */
   width: 100%;
-  background-color: #161b22 !important;
-  color: #fff !important;
+  /* background-color: #161b22 !important; */
+  /* color: #fff !important; */
 }
 .nav-container .home-menu {
  
   height: 50px;
-  padding: 5px 20px;
-  background-color: #161b22 !important;
-  color: #fff !important;
+  padding: 10px 5px 20px;
+  background-color: #FFF;
+  color: #000;
   -ms-flex-direction: row;
   flex-direction: row;
   display: -ms-flexbox;
@@ -211,19 +211,24 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between;
   overflow-y: scroll;
-  max-width: 1000px;
+/*  max-width: 1000px;*/
   margin-left: auto;
   margin-right: auto;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #f7f1f1;
+
 }
 @media screen and (max-width: 615px) {
   .nav-container .home-menu {
     -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1280px) {
   .nav-container .home-menu {
-    max-width: 880px;
+/*    max-width: 880px;*/
   }
 }
 .nav-container .home-menu .pure-menu-heading {
@@ -235,6 +240,7 @@ body {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+/*  padding-top: 15px;*/
 }
 @media screen and (max-width: 615px) {
   .nav-container .home-menu .pure-menu-heading {
@@ -244,7 +250,7 @@ body {
 .nav-container .home-menu .pure-menu-heading .avatar {
   width: 40px;
   height: 40px;
-  background: #efefef;
+/*  background: #efefef;*/
   border-radius: 20px;
   border-style: none;
   display: inline-block;
@@ -287,11 +293,11 @@ body {
   content: ' ';
 }
 .nav-container .home-menu .pure-menu-list .pure-menu-link:focus {
-  background-color: #fff;
+/*  background-color: #fff;*/
 }
 .nav-container .home-menu .pure-menu-list .pure-menu-link:hover {
   font-size: 18px;
-  background-color: #efefef;
+/*  background-color: #efefef;*/
 }
 .nav-container .home-menu .pure-menu-list .pure-menu-item.actived {
   color: #2196F3;
@@ -1023,12 +1029,60 @@ code {
 }
 
 /*# sourceMappingURL=xoxo.css.map */
-.nav-container {
+/*.nav-container {
   background: #efefef;
-}
+}*/
 .toc-container {
   z-index: 1000;
 }
 #container {
   border-top: 0.5px solid #eee;
+}
+
+
+
+/*  --------- 回到顶部按钮 --------*/
+
+body {
+/*  用于抵消按钮出现之后页面底部的留白空间*/
+  grid-template-columns: 1fr 0px; 
+}
+.return-top {
+  
+  display: block;
+
+  float: right;
+
+  position: sticky;
+  bottom: 20px;      
+  margin-right: 10px; 
+  place-self: end;
+/*  margin-top: calc(100vh + var(--offset));*/
+
+ /* scroll-padding-top: calc(100px + var(--offset));
+  scroll-padding-bottom: 100px;*/
+  
+  width: 50px;
+  aspect-ratio: 1;
+  background: #ddd;
+  border-radius: 10px;
+  font-size: 0;
+  color: #fff;
+}
+.return-top:before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;  
+}
+ 
+a.return-top:hover {
+    background-color: #999;
+}
+
+
+.gt-container {
+  padding: 20px;
 }

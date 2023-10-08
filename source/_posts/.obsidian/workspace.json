@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "ae5284023c391123",
+    "type": "split",
+    "children": [
+      {
+        "id": "f364384d87e02cb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8e554dc83727f46",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b948106e1d0587d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb753901824f539b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "286c39f2d098f5bc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4be1aedb80ca62e0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d60ab151f04598f9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0a300b54c56f95c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc98c64392807f99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c281c19b19fd5a1f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ced551ad06b4309b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9ed6c5bc0fd61436",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cb9b13f8c5c12091",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d8e554dc83727f46",
+  "lastOpenFiles": [
+    "JVM/虚拟机.md",
+    "JVM/虚拟机-系统与进程的通用平台.md",
+    "JVM/JVM入门、概念.md",
+    "GitHub/提交项目到GitHub，还原某个文件.md",
+    "GitHub/在github上同步一个分支(fork).md",
+    "GitHub/Git的错误error Failed connect to github.com443;解决办法.md",
+    "NodeJS/express获取参数的方法.md",
+    "NodeJS/创建npm插件.md",
+    "Ruby/SSL证书问题.md",
+    "鸡汤/程序员的3年之痒改变的不止薪水.md",
+    "架构/MySQL主从同步配置.md",
+    "架构/什么是中台.md",
+    "架构/架构漫谈学习笔记.md",
+    "架构/架构漫谈.md",
+    "design-pattern/Builder模式——设计模式.md",
+    "ember-teach/components/包裹内容.md",
+    "hello-world.md",
+    "自定义MVC框架/自定义MVC框架之八使用框架模拟登陆.md"
+  ]
+}

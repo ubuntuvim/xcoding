@@ -1,7 +1,7 @@
 html, body {
   font-size: 18px;
   font-weight: normal;
-  	scroll-behavior: smooth; /* 平滑滚动 */
+  	scroll-behavior: smooth; 
 }
 
 body {
@@ -34,9 +34,9 @@ body {
       justify-content: center;
     }
     overflow-y: scroll;
-    max-width:1000px;
+    // max-width:1000px;
     @media screen and (min-width: @xl-width) {
-      max-width: 880px;
+      // max-width: 880px;
     }
     margin-left: auto;
     margin-right: auto;
@@ -689,46 +689,3 @@ body {
 //    width: 400px;
 //  }
 //}
-
-//  --------- 回到顶部按钮 --------
-
-body {
-	// 用于抵消按钮出现之后页面底部的留白空间
-	grid-template-columns: 1fr 0px; 
-}
-.return-top {
-  --offset: 50%; /* 控制按钮出现 */
-  
-  position: sticky;
-  bottom: 20px;      
-  margin-right: 10px; 
-  place-self: end;
-  margin-top: calc(100vh + var(--offset));
-
-  // scroll-padding-top: calc(100px + var(--offset));
-  // scroll-padding-bottom: 100px;
-  
-  width: 50px;
-  aspect-ratio: 1;
-  background: #ddd;
-  border-radius: 10px;
-  font-size: 0;
-  color: #fff;
-}
-.return-top:before {
-  content: "";
-  position: absolute;
-  inset: 30%;
-  transform: translateY(20%) rotate(-45deg);
-  border-top: 5px solid #fff;
-  border-right: 5px solid #fff;  
-}
- 
-a.return-top:hover {
-    background-color: #999;
-}
-
-
-.gt-container {
-	padding: 20px;
-}
