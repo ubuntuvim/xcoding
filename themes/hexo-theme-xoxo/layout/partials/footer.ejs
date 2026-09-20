@@ -5,14 +5,14 @@
     </div>
 </footer>
 
-<% if (theme.mermaid.enable) { %>
-  <script src='https://unpkg.com/mermaid@<%= theme.mermaid.version %>/dist/mermaid.min.js'></script>
-  <script>
-    if (window.mermaid) {
-      mermaid.initialize({theme: 'forest'});
-    }
-  </script>
-<% } %>
+{% if theme.mermaid.enable %}
+<script src="https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js"></script>
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ startOnLoad: true });
+  }
+</script>
+{% endif %}
 
 <script>
 (function(){
