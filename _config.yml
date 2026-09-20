@@ -77,7 +77,16 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-xoxo
 
-
+# _config.yml
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  disableNunjucks: true  # 关键：全局禁用 Nunjucks 标签解析
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
