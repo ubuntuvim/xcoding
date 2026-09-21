@@ -177,7 +177,7 @@ footer .bottom-item:hover {
     padding: 10px 50px;
   }
 }
-html,
+/*html,
 body {
   font-size: 16px;
   font-weight: 300;
@@ -186,7 +186,7 @@ body {
   color: #202020;
   line-height: 1.8rem;
   margin: 0;
-}
+}*/
 .nav-container {
   display: -ms-flexbox;
   /* display: flex; */
@@ -278,30 +278,15 @@ body {
     display: initial;
   }
 }
-.nav-container .home-menu .pure-menu-list .menu-icon {
-  width: 18px;
-  height: 18px;
-}
-.nav-container .home-menu .pure-menu-list .pure-menu-children {
-  border: 1px solid #999;
-}
-.nav-container .home-menu .pure-menu-list .pure-menu-link {
-  padding: 4px 15px;
-  color: inherit;
-}
-.nav-container .home-menu .pure-menu-list .pure-menu-link:after {
-  content: ' ';
-}
-.nav-container .home-menu .pure-menu-list .pure-menu-link:focus {
+
+/*.nav-container .home-menu .pure-menu-list .pure-menu-link:focus {
   background-color: #161b22 !important
 }
 .nav-container .home-menu .pure-menu-list .pure-menu-link:hover {
-  font-size: 18px;
+  font-size: 20px !important;
   background-color: #161b22 !important
-}
-.nav-container .home-menu .pure-menu-list .pure-menu-item.actived {
-  color: #2196F3;
-}
+}*/
+
 .slash {
   color: #999;
   padding-left: 5px;
@@ -1041,38 +1026,6 @@ code {
 
 
 
-/*  --------- 回到顶部按钮 --------*/
-
-body {
-/*  用于抵消按钮出现之后页面底部的留白空间*/
-  grid-template-columns: 1fr 0px; 
-}
-.return-top {
-  display: block;
-  float: right;
-  position: sticky;
-  bottom: 20px;      
-  margin-right: 10px; 
-  place-self: end;
-  width: 50px;
-  aspect-ratio: 1;
-  background: #ddd;
-  border-radius: 10px;
-  font-size: 0;
-  color: #fff;
-}
-.return-top:before {
-  content: "";
-  position: absolute;
-  inset: 30%;
-  transform: translateY(20%) rotate(-45deg);
-  border-top: 5px solid #fff;
-  border-right: 5px solid #fff;  
-}
- 
-a.return-top:hover {
-    background-color: #999;
-}
 
 
 .gt-container {

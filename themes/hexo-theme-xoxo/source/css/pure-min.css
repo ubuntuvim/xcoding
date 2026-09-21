@@ -1059,21 +1059,38 @@ a.pure-button-selected {
 	opacity: .5
 }
 
-.pure-menu-disabled .pure-menu-link:hover {
-	background-color: transparent
+.pure-menu-disabled  {
+	background-color: transparent;
 }
-
+.nav-container .home-menu .pure-menu-list .menu-icon {
+  width: 18px;
+  height: 18px;
+}
+.nav-container .home-menu .pure-menu-list .pure-menu-children {
+  border: 1px solid #999;
+}
+.nav-container .home-menu .pure-menu-list .pure-menu-link {
+  padding: 12px 15px;
+  color: inherit;
+}
+.nav-container .home-menu .pure-menu-list .pure-menu-link:after {
+  content: ' ';
+}
 .pure-menu-active>.pure-menu-link,
 .pure-menu-link:focus,
 .pure-menu-link:hover {
-	background-color: #161b22 !important
+	background-color: #161b22 !important;
 }
-
+.pure-menu-link:hover {
+  font-size: 20px !important;
+}
 .pure-menu-selected .pure-menu-link,
 .pure-menu-selected .pure-menu-link:visited {
 	color: #000
 }
-
+.nav-container .home-menu .pure-menu-list .pure-menu-item.actived {
+  color: #2196F3;
+}
 .pure-table {
 	empty-cells: show;
 	border: 1px solid #cbcbcb
@@ -1145,3 +1162,36 @@ a.pure-button-selected {
     background-color: #161b22 !important;
 }
 */
+
+/*  --------- 回到顶部按钮 --------*/
+
+body {
+/*  用于抵消按钮出现之后页面底部的留白空间*/
+  grid-template-columns: 1fr 0px; 
+}
+.return-top {
+  display: block;
+  float: right;
+  position: sticky;
+  bottom: 20px;      
+  margin-right: 10px; 
+  place-self: end;
+  width: 50px;
+  aspect-ratio: 1;
+  background: #ddd;
+  border-radius: 10px;
+  font-size: 0;
+  color: #fff;
+}
+.return-top:before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;  
+}
+ 
+a.return-top:hover {
+    background-color: #999;
+}
