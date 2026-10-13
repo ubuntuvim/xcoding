@@ -1,7 +1,8 @@
 ---
 title: How To Do ？
 excerpt: 普通人怎样改变自己的阶层？
-tags: 
+tags:
+- 认知 
 - 鸡汤
 - 软文
 ---
