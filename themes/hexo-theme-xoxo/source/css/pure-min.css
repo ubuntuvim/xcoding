@@ -1264,29 +1264,57 @@ a.pure-button-selected {
 
 /*  --------- 回到顶部按钮 --------*/
 
+/* 开启全局平滑滚动，让回到顶部时动画更自然 */
+html {
+  scroll-behavior: smooth; 
+}
 
 .return-top {
-  display: block;
-  float: right;
-  position: sticky;
-  margin-right: 10px; 
-  place-self: end;
+  display: flex;             /* 改为 flex，方便内部元素居中 */
+  align-items: center;
+  justify-content: center;
+  position: fixed;           /* 固定在屏幕视图中 */
+  bottom: 30px;              /* 距离底部 */
+  right: 20px;               /* 距离右侧 */
   width: 50px;
   aspect-ratio: 1;
-  background: #ddd;
+  background: #999;
   border-radius: 10px;
-  font-size: 0;
+  font-size: 0;              /* 依然隐藏“回到顶部”文字本身 */
   color: #fff;
+  z-index: 999;
+  text-decoration: none;
+  cursor: pointer;
+  
+  /* 隐藏/显示动画核心代码 */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px); 
+  transition: all 0.3s ease;
 }
-.return-top:before {
+
+/* 用伪元素 ::after 绘制向上的箭头 */
+.return-top::after {
   content: "";
-  position: absolute;
-  inset: 30%;
-  transform: translateY(20%) rotate(-45deg);
-  border-top: 5px solid #fff;
-  border-right: 5px solid #fff;  
+  width: 18px;               /* 折线宽度 */
+  height: 18px;              /* 折线高度 */
+  border-top: 6px solid #fff;  /* 箭头的上边框，粗细为 3px */
+  border-left: 6px solid #fff; /* 箭头的左边框，粗细为 3px */
+  transform: translateY(3px) rotate(45deg); /* 旋转 45 度使其向上，并微调垂直居中 */
+  transition: transform 0.3s ease; /* 增加过渡，为悬停动画做准备 */
 }
- 
-a.return-top:hover {
-    background-color: #999;
+
+/* 当通过 JS 加上 .show 类名时展现的内容 */
+.return-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* 鼠标悬停变色，且让箭头有一个小幅向上的微动 */
+.return-top:hover {
+  background: #777;
+}
+.return-top:hover::after {
+  transform: translateY(-1px) rotate(45deg); /* 悬停时箭头微微上移，增加灵动感 */
 }

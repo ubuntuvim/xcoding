@@ -42,4 +42,21 @@ if (is_home()) pageTitle+= config.subtitle;
     <% }); %>
   <% } %>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+  const returnTopBtn = document.querySelector('.return-top');
+  
+  window.addEventListener('scroll', function() {
+    // window.innerHeight 代表浏览器窗口一页的高度
+    // window.scrollY 代表页面向下滑动了多少距离
+    if (window.scrollY > window.innerHeight) {
+      // 滚动超过一页，添加 show 类名显示按钮
+      returnTopBtn.classList.add('show');
+    } else {
+      // 滚动不足一页，移除 show 类名隐藏按钮
+      returnTopBtn.classList.remove('show');
+    }
+  });
+});
+  </script>
 </head>
