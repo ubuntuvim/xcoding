@@ -1264,15 +1264,11 @@ a.pure-button-selected {
 
 /*  --------- 回到顶部按钮 --------*/
 
-body {
-/*  用于抵消按钮出现之后页面底部的留白空间*/
-  grid-template-columns: 1fr 0px; 
-}
+
 .return-top {
   display: block;
   float: right;
   position: sticky;
-  bottom: 20px;      
   margin-right: 10px; 
   place-self: end;
   width: 50px;
