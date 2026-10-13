@@ -12,9 +12,7 @@ if (is_home()) pageTitle+= config.subtitle;
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <meta name="theme-color" content="#303030"/>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <script src="/js/busuanzi.pure.mini.js" async></script>
   
   <% if (page.tags && page.tags.length) { %>
     <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%= tag.name %>,<% }); %>" />
@@ -31,9 +29,34 @@ if (is_home()) pageTitle+= config.subtitle;
   <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
   <title><%=pageTitle%></title>
   <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %>
-    <!-- stylesheets list from config.yml -->
+    <!-- stylesheets list from hexo-theme/xoxo/config.yml -->
     <% theme.stylesheets.forEach(function(url) { %>
       <link rel="stylesheet" href="<%=url%>">
     <% }); %>
   <% } %>
+  
+  <% if (theme.scripts !== undefined && theme.scripts.length > 0) { %>
+    <!-- scripts list from hexo-theme/xoxo/config.yml -->
+    <% theme.scripts.forEach(function(url) { %>
+      <script src="<%=url%>" async></script>
+    <% }); %>
+  <% } %>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+  const returnTopBtn = document.querySelector('.return-top');
+  
+  window.addEventListener('scroll', function() {
+    // window.innerHeight 代表浏览器窗口一页的高度
+    // window.scrollY 代表页面向下滑动了多少距离
+    if (window.scrollY > window.innerHeight) {
+      // 滚动超过一页，添加 show 类名显示按钮
+      returnTopBtn.classList.add('show');
+    } else {
+      // 滚动不足一页，移除 show 类名隐藏按钮
+      returnTopBtn.classList.remove('show');
+    }
+  });
+});
+  </script>
 </head>

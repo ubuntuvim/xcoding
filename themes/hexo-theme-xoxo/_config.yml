@@ -47,7 +47,7 @@ stylesheets:
 # scripts loaded in the end of the body
 scripts:
 - /js/zepto.min.js
-#- /js/xoxo.js
+- /js/xoxo.js
 # - /js/gitment.browser.js
 
 
@@ -66,12 +66,21 @@ github: https://github.com/ubuntuvim
 # mermaid chart
 mermaid: ## mermaid url https://github.com/knsv/mermaid
   enable: true  # default true
-  version: "7.1.2" # default v7.1.2
+  version: "10.9.1" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
     external_link: false    
 
-
+# 评论插件
+# Comment plugin
+post:
+  comments:
+    enable: true  # 将 false 改为 true
+    # 指定的插件，需要同时设置对应插件的必要参数
+    # The specified plugin needs to set the necessary parameters at the same time
+    # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
+    type: gitalk  # 将 disqus 改为 gitalk
+    
 plugins:
   gitalk:
     clientID: 48b3df0bf4ba1743e0a3

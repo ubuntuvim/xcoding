@@ -1,11 +1,9 @@
-html, body {
-  font-size: 18px;
-  font-weight: normal;
-  	scroll-behavior: smooth; 
-}
 
+html,
 body {
-  color: #303030;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.8rem !important;
   margin: 0;
   display: grid;
 }
@@ -17,16 +15,10 @@ body {
   align-items: center;
   width: 100%;
   
-  background-color: #161b22 !important;
-  color: #fff !important;
-  
   .home-menu {
-   
     height: @nav-height;
     padding: @nav-padding;
-    // background: #fefefe;
-    background-color: #161b22 !important;
-    color: #fff !important;
+    background: #F6F6F6;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -71,6 +63,8 @@ body {
         line-height: 40px;
       }
     }
+
+
     .pure-menu-list {
       // display: flex;
       .toc-menu {
@@ -87,13 +81,16 @@ body {
         border: 1px solid @gray-light;
       }
       .pure-menu-link {
-        padding: 4px 15px;
+        padding: 5px 10px;
         color: inherit;
         &:after {
           content: ' ';
         }
         &:focus {
-          background-color: #fff;
+          
+        }
+        &:hover {
+          color:#2196F3;
         }
 		
       }
@@ -689,3 +686,207 @@ body {
 //    width: 400px;
 //  }
 //}
+
+
+
+/*  --------- 回到顶部按钮 --------*/
+
+/* 开启全局平滑滚动，让回到顶部时动画更自然 */
+html {
+  scroll-behavior: smooth; 
+}
+
+.return-top {
+  display: flex;             /* 改为 flex，方便内部元素居中 */
+  align-items: center;
+  justify-content: center;
+  position: fixed;           /* 固定在屏幕视图中 */
+  bottom: 30px;              /* 距离底部 */
+  right: 20px;               /* 距离右侧 */
+  width: 50px;
+  aspect-ratio: 1;
+  background: #666;
+  border-radius: 10px;
+  font-size: 0;              /* 依然隐藏“回到顶部”文字本身 */
+  color: #fff;
+  z-index: 999;
+  text-decoration: none;
+  cursor: pointer;
+  
+  /* 隐藏/显示动画核心代码 */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px); 
+  transition: all 0.3s ease;
+}
+
+/* 用伪元素 ::after 绘制向上的箭头 */
+.return-top::after {
+  content: "";
+  width: 18px;               /* 折线宽度 */
+  height: 18px;              /* 折线高度 */
+  border-top: 6px solid #fff;  /* 箭头的上边框，粗细为 3px */
+  border-left: 6px solid #fff; /* 箭头的左边框，粗细为 3px */
+  transform: translateY(3px) rotate(45deg); /* 旋转 45 度使其向上，并微调垂直居中 */
+  transition: transform 0.3s ease; /* 增加过渡，为悬停动画做准备 */
+}
+
+/* 当通过 JS 加上 .show 类名时展现的内容 */
+.return-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* 鼠标悬停变色，且让箭头有一个小幅向上的微动 */
+.return-top:hover {
+  background: #777;
+}
+.return-top:hover::after {
+  transform: translateY(-1px) rotate(45deg); /* 悬停时箭头微微上移，增加灵动感 */
+}
+
+
+/*  --------- 搜索按钮样式 --------*/
+
+/* 1. 外层容器布局（限制最大宽度并居中，贴合谷歌的视觉比例） */
+.search-content {
+  margin: 0 auto;
+  position: relative;
+}
+
+/* 清除默认的表单边距 */
+.search-content .pure-form {
+  margin: 0;
+}
+
+/* 2. 谷歌风格搜索框核心样式 */
+#local-search-input {
+  width: 100%;
+  height: 46px;                /* 控制输入框高度 */
+  padding: 10px 24px;          /* 左右留出充足的空白体验 */
+  box-sizing: border-box;
+  
+  /* 边框与背景 */
+  border: 1px solid #dfe1e5;   /* 谷歌标志性的浅灰边框 */
+  border-radius: 24px !important;         /* 呈现两端半圆的胶囊状 */
+  background-color: #ffffff;
+  
+  /* 字体设置 */
+  font-size: 16px;
+  color: #202124;              /* 深灰色文字，比纯黑更柔和 */
+  font-family: inherit;
+  
+  /* 交互过渡与默认样式重置 */
+  outline: none;               /* 去除浏览器默认的蓝色聚焦外框 */
+  transition: box-shadow 0.2s, border-color 0.2s; /* 添加平滑动画 */
+}
+
+/* 占位符（Placeholder）颜色微调 */
+#local-search-input::placeholder {
+  color: #9aa0a6;
+}
+
+/* 3. 鼠标悬停 (Hover) 和 聚焦 (Focus) 时的阴影效果 */
+#local-search-input:hover,
+#local-search-input:focus {
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); /* 谷歌经典的悬停阴影参数 */
+  border-color: rgba(223, 225, 229, 0);         /* 边框变透明，让阴影更纯粹 */
+}
+
+/* 4. 搜索结果容器的配套美化（避免搜索框好看，但结果框突兀） */
+#local-search-result:not(:empty) {
+  margin-top: 12px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(32, 33, 36, 0.15); /* 卡片式悬浮阴影 */
+  border: 1px solid #dfe1e5;
+  font-size: 14px;
+}
+
+/* 1. 结果框外层容器：下拉悬浮卡片样式 */
+#local-search-result {
+  position: absolute;        /* 绝对定位，使其浮在页面内容上方 */
+  width: 100%;
+  max-height: auto;         /* 限制最大高度，避免结果过多撑爆页面 */
+  overflow-y: auto;          /* 超出部分允许纵向滚动 */
+  margin-top: 8px;
+  background: #ffffff;
+  border-radius: 8px;        /* 圆角卡片 */
+  box-shadow: 0 4px 12px rgba(32, 33, 36, 0.15); /* 与搜索框呼应的悬浮阴影 */
+  border: 1px solid #dfe1e5;
+  display: none;             /* 默认隐藏 */
+}
+
+/* 当结果框内有内容时自动显示 */
+#local-search-result:not(:empty) {
+  display: block;
+}
+
+/* 美化内部的滚动条 (WebKit 浏览器适用) */
+#local-search-result::-webkit-scrollbar {
+  width: 6px;
+}
+#local-search-result::-webkit-scrollbar-thumb {
+  background: #dadce0;
+  border-radius: 4px;
+}
+
+/* 2. 结果列表容器 */
+#local-search-result ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 3. 单条搜索结果列表项 */
+#local-search-result li {
+  padding: 12px 20px;
+  border-bottom: 1px solid #f1f3f4; /* 列表间的细分隔线 */
+  transition: background-color 0.2s;
+}
+#local-search-result li:last-child {
+  border-bottom: none;       /* 最后一条去掉底边框 */
+}
+#local-search-result li:hover {
+  background-color: #f8f9fa; /* 鼠标悬停时的谷歌浅灰背景 */
+}
+
+/* 4. 搜索结果标题 (模拟谷歌搜索结果的经典蓝色链接) */
+#local-search-result a.search-result-title {
+  display: block;
+  font-size: 16px;
+  color: #1a0dab;            /* 谷歌标题蓝 */
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+#local-search-result a.search-result-title:hover {
+  text-decoration: underline; /* 悬停时加下划线 */
+}
+
+/* 5. 搜索结果摘要内容 */
+#local-search-result p.search-result {
+  font-size: 14px;
+  color: #4d5156;            /* 谷歌摘要深灰 */
+  line-height: 1.5;
+  margin: 0;
+  /* 如果摘要太长，最多只显示两行并用省略号截断 */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 6. 搜索关键字高亮 (插件通常使用 <em>, <b> 或 <mark> 包裹关键字) */
+#local-search-result em,
+#local-search-result mark,
+#local-search-result b.search-keyword {
+  font-style: normal;
+  font-weight: bold;
+  color: #ea4335;            /* 谷歌红，醒目提示匹配到的关键字 */
+  background: transparent;
+}
