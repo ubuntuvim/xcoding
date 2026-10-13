@@ -44,19 +44,44 @@ if (is_home()) pageTitle+= config.subtitle;
 
   <script>
   document.addEventListener("DOMContentLoaded", function() {
-  const returnTopBtn = document.querySelector('.return-top');
-  
-  window.addEventListener('scroll', function() {
-    // window.innerHeight 代表浏览器窗口一页的高度
-    // window.scrollY 代表页面向下滑动了多少距离
-    if (window.scrollY > window.innerHeight) {
-      // 滚动超过一页，添加 show 类名显示按钮
-      returnTopBtn.classList.add('show');
-    } else {
-      // 滚动不足一页，移除 show 类名隐藏按钮
-      returnTopBtn.classList.remove('show');
+    const returnTopBtn = document.querySelector('.return-top');
+    const navPostTitle = document.getElementById('nav-post-title');
+    const postHeaderTitle = document.getElementById('post-title') || document.querySelector('.post .post-header .title') || document.querySelector('#post .title');
+
+    // 点击导航栏标题平滑滚动回到顶部
+    if (navPostTitle) {
+      navPostTitle.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     }
+
+    function handleScroll() {
+      const scrollY = window.scrollY || document.documentElement.scrollTop;
+
+      // 1. 回到顶部按钮逻辑
+      if (returnTopBtn) {
+        if (scrollY > window.innerHeight) {
+          returnTopBtn.classList.add('show');
+        } else {
+          returnTopBtn.classList.remove('show');
+        }
+      }
+
+      // 2. 博客文章标题在 nav bar 中间的吸顶显示逻辑
+      if (navPostTitle && postHeaderTitle) {
+        const rect = postHeaderTitle.getBoundingClientRect();
+        // 导航栏高度约为 50px，当原标题下边缘滚过导航栏时显示
+        if (rect.bottom <= 50) {
+          navPostTitle.classList.add('show');
+        } else {
+          navPostTitle.classList.remove('show');
+        }
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    // 初始化时检测一次，防止刷新页面时处于已有滚动位置
+    handleScroll();
   });
-});
   </script>
 </head>

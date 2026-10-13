@@ -16,16 +16,18 @@ body {
   width: 100%;
   
   .home-menu {
+    position: relative;
     height: @nav-height;
     padding: @nav-padding;
     background: #F6F6F6;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     @media screen and (max-width: 615px) {
       justify-content: center;
     }
-    overflow-y: scroll;
+    
     // max-width:1000px;
     @media screen and (min-width: @xl-width) {
       // max-width: 880px;
@@ -61,6 +63,46 @@ body {
         font-weight: 700;
         font-size: 24px;
         line-height: 40px;
+      }
+    }
+
+    .nav-post-title {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, calc(-50% + 6px));
+      text-align: center;
+      max-width: 45%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 16px;
+      font-weight: 700;
+      color: @m-black;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+      cursor: pointer;
+      user-select: none;
+      z-index: 10;
+
+      &:hover {
+        color: @light-blue;
+      }
+
+      &.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translate(-50%, -50%);
+      }
+
+      @media screen and (max-width: 820px) {
+        max-width: 35%;
+        font-size: 14px;
+      }
+
+      @media screen and (max-width: 615px) {
+        display: none !important;
       }
     }
 

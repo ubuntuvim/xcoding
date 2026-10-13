@@ -13,6 +13,12 @@
     <span class="title"><%=config.title%></span>
   </a>
 
+  <% if (is_post() && page.title) { %>
+    <div class="nav-post-title" id="nav-post-title" title="<%= page.title %>">
+      <%= page.title %>
+    </div>
+  <% } %>
+
   <ul class="pure-menu-list clearfix">
       <% Object.keys(theme.menu).forEach(function(key) { %>
           <% if ((is_home() && key==='home') || (is_archive() && key==='archives') || page.type === key) { %>
